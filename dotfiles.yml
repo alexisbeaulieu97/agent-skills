@@ -1,0 +1,13 @@
+# Read by `untaped dotfiles`. One item: every skill, linked into the two folders agent
+# harnesses read on a machine. The skills live in .claude/skills, where cloud sessions
+# (Claude Code Projects) load them when this repository is added to a project.
+version: 1
+items:
+  skills:
+    description: Agent skills, for Claude Code (~/.claude/skills) and other harnesses (~/.agents/skills)
+    policy: sync
+    files:
+      - source: .claude/skills
+        target: ~/.claude/skills
+      - source: .claude/skills
+        target: ~/.agents/skills
