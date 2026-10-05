@@ -60,6 +60,9 @@ result and leave the method to the agent.
 - Examples are several, varied in the ways that matter, and labelled as
   illustrations. Anything that may leave its owner's hands uses invented
   names.
+- Choose each word for how an agent will act on it. A "rule" is obeyed
+  and an "idea" weighed; "must" binds where "prefer" leaves room. Give
+  each idea the strength it needs, no more.
 - One term per concept, kept throughout. State current behaviour, not the
   history of how it came to be.
 - Give order only where results depend on each other, and end each step on
