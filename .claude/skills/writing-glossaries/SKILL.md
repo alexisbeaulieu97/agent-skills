@@ -21,6 +21,9 @@ for that reader and nothing else.
 
 ## What a definition says
 
+- **Only words with a meaning specific to this project.** A standard concept under its usual
+  name gets no row, unless the project gives it a narrower or different meaning; then the row
+  says only that meaning.
 - **Identity, not behaviour.** Say what the thing *is*. What it does, when, and under which
   rules goes elsewhere.
 - **Terms from the glossary may be used freely,** but keep chains shallow: a reader should
@@ -32,7 +35,7 @@ for that reader and nothing else.
 
 | Content | Home |
 | --- | --- |
-| Relationships and invariants ("a group's state is its worst member's") | the domain model |
+| Relationships and invariants ("a group's status is its worst member's") | the domain model |
 | UI behaviour and copy rules | the design |
 | Security guarantees ("this needs re-authentication") | the security model |
 | Why a word was chosen, and what it replaced | the change log or a decision record |
@@ -42,13 +45,17 @@ if not.
 
 ## Pass over an existing glossary
 
-Run these in order, and show the user the cuts and merges before applying them:
+Run these in order, and show the user every cut, merge and rename before applying them:
 
 1. **Cut** a term that is:
    - a standard concept under a coined name (call it what the field calls it, and use that
      plain wording in the design too);
    - internal plumbing the reader never meets (it belongs to the design);
-   - a special case of another term (say it with the general term).
+   - a special case of another term (say it with the general term);
+   - a standard concept under its usual name, used in its usual sense.
+
+   A cut word is no longer capitalised where the project uses it; where it is still needed,
+   the text explains it in plain words.
 2. **Merge** two rows when one is only the type, a variant or an alternative path of the
    other: the general row names its types or variants in its one sentence.
 3. **Rename** a term whose ordinary meaning misleads (a word that reads as a tier, a size or a
