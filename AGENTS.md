@@ -2,8 +2,7 @@
 
 Personal agent skills, read by several harnesses. Read [README.md](README.md) first.
 
-- A skill is a folder under `.claude/skills` with a `SKILL.md`, and may hold a
-  `principles.md`: the outcomes the owner intends it to produce. Nothing else belongs in
+- A skill is a folder under `.claude/skills` with a `SKILL.md`; nothing else belongs in
   this repository. `.claude/skills` holds the only copy: other locations are links.
 - Skills are harness-neutral: no instruction that only one harness can follow, unless the
   skill says which harness it is for.
