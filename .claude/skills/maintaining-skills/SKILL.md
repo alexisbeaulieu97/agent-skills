@@ -10,9 +10,6 @@ in context: its description is read in every session, its body in every
 session that loads it. Write what the agent cannot know or find out, so that
 it decides well in cases the skill never names.
 
-These rules are distilled from the guides in
-[references/sources.md](references/sources.md).
-
 ## What goes in
 
 Teach how to think rather than what to match. Open with the one principle
