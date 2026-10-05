@@ -5,7 +5,7 @@ My personal agent skills, one folder each under [.claude/skills](.claude/skills)
 | Skill | Use |
 | --- | --- |
 | `personal-ui-preferences` | My UI and UX defaults, for designing, building or reviewing an interface |
-| `writing-glossaries` | What a project glossary includes and how its definitions read |
+| `writing-documentation` | Where each fact lives in a project's documents and how much detail it gets; glossaries as a reference |
 
 ## Where they load
 

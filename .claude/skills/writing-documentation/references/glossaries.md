@@ -1,9 +1,4 @@
----
-name: writing-glossaries
-description: How to decide what a project glossary includes and how its definitions read. Use when writing, reviewing or pruning a glossary, or when a design keeps introducing terms that readers will need defined.
----
-
-# Writing glossaries
+# Glossaries
 
 A glossary lets a reader who knows the field but not the project resolve the project's own
 terms without learning its specification. Every judgment below serves that reader's lookup.
@@ -14,8 +9,7 @@ terms without learning its specification. Every judgment below serves that reade
 - **Define the concept's identity and the role that distinguishes it.** What a thing does
   belongs in its definition when that is what sets it apart; how it does it, when, and under
   which conditions is specification, and lives in the project's authoritative documents
-  (domain model, design, security model, change log), which the glossary may point to. Before
-  taking specification out, check that its home already says it, and move it there if not.
+  (see the main skill on placement), which the glossary may point to.
   A definition may use other terms of the glossary, as long as the reader needn't chase a
   chain of them; one that keeps growing usually holds a second term or a rule that belongs in
   the specification.
@@ -28,6 +22,3 @@ terms without learning its specification. Every judgment below serves that reade
 Merging, splitting or renaming terms changes the project's language, not just its glossary:
 treat it as a domain-design decision, raise it with whoever owns that language, and keep it
 apart from cleanup of the glossary itself.
-
-The project's own conventions for its glossary (format, length, capitalisation, ordering)
-win over anything here; state house style in the project, where it applies only to it.
