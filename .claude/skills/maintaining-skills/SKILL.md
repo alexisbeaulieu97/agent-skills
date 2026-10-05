@@ -94,9 +94,3 @@ find out why before changing anything, change the one idea responsible,
 and watch the next uses for whether that helped. Because each idea is a
 unit, the effect of a change can be traced to it; a change spread across
 several ideas cannot be. More text fixes only guidance that was missing.
-
-A test in fresh sessions answers a question use would answer too slowly or
-too riskily, such as whether a safeguard holds. Test the skill the way it
-is used, keep the test hidden from the sessions under test, and judge
-without knowing which version produced which. Results vary from one batch
-to the next, so trust only a difference that repeats in a separate batch.
