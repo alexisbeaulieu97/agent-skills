@@ -114,8 +114,6 @@ with it:
 4. A case the previous version already passes does not test the change.
    Trust only differences that repeat.
 
-Change one thing per commit, so each effect can be told apart.
-
 When a skill changes, what it already produced may no longer match it:
 skills written to the old rules, an interface built to an old preference.
 Find what you can reach and offer to bring it in line.
