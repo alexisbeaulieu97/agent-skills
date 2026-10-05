@@ -23,8 +23,12 @@ decide the cases the skill leaves out. Then give:
 - the constraints that protect shared systems and anything irreversible:
   preview first, say what selects the objects an action touches, how to
   recover, and wait for the user's approval;
-- the reason behind a rule when it changes how the rule applies at the
-  edges; a rule that is clear on its face needs none.
+- the reason behind an idea when it changes how the idea applies at the
+  edges; an idea that is clear on its face needs none.
+
+Each idea stands on its own, narrow enough that why it is there and how to
+test it are plain from the text. When they are not, the idea is unclear or
+holds more than one; rewrite or split it before changing what it says.
 
 Leave out what the agent does well by default, and what it can find by
 looking: a tool's `--help`, a config file, the live system. A skill that
