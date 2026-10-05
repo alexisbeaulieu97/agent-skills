@@ -10,10 +10,3 @@ Personal agent skills, read by several harnesses. Read [README.md](README.md) fi
 - Treat the repository as public: no secrets, no personal data beyond the owner's first
   name, nothing naming an employer or its systems. Work skills live in the work repository.
 - One change per commit, with a message that says why.
-
-## Testing a skill change
-
-Judge a change against the skill's `principles.md`, with checks written for that test and
-shown only to the judge, who is not told which version produced which result. Run the
-sessions under test on a copy of the repository, where no other copy of these skills
-loads (such as the links in `~/.claude/skills`).
