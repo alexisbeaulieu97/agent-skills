@@ -1,4 +1,0 @@
-interface:
-  display_name: "Personal UI Preferences"
-  short_description: "Apply Alexis's confirmed UI/UX preferences"
-  default_prompt: "Use $personal-ui-preferences to review this interface against my confirmed design preferences."
