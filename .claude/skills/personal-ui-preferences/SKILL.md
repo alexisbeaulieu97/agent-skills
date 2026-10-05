@@ -29,15 +29,15 @@ Confirmed personal defaults. Apply them in context; the user's current direction
 
 - **Make appearance and interaction agree.** When a card or row presents one action, its whole surface should activate it. Icons reinforce labels and signal interaction.
 - **Switch for instant effect, checkbox for a later submit.** A switch feels mechanical: flipping it changes what is on screen right now, such as a header toggle that repaints a table. A checkbox is a concept: an option collected for a submit, such as "Save this format for next time" or an acknowledgement. Revealing a dependent field is disclosure, not effect, so a checkbox that shows a name input stays a checkbox.
-- **Icons when the meaning is universal.** A gear, a pencil, a trash can or a refresh arrow stands alone as a button. Anything less universal gets icon plus text, or text only. Icon-only controls still carry an accessible name and a tooltip.
-- **Show, don't tell.** When something can be drawn, draw it instead of describing it: seeing beats reading and decoding. Borrow shapes the screen already uses, so the picture maps onto what it describes without being learned. Stop where the picture would need a legend: keep the words that carry meaning, and fall back to text where a drawing would misstate the thing. The plain sentence stays as the accessible name and tooltip. Examples:
+- **Icons when the meaning is universal.** A gear, a pencil, a trash can or a refresh arrow stands alone as a button. Anything less universal gets icon plus text, or text only. Icon-only controls still carry an accessible name and a hover card.
+- **Show, don't tell.** When something can be drawn, draw it instead of describing it: seeing beats reading and decoding. Borrow shapes the screen already uses, so the picture maps onto what it describes without being learned. Stop where the picture would need a legend: keep the words that carry meaning, and fall back to text where a drawing would misstate the thing. The plain sentence stays as the accessible name and hover card. Examples:
   - A filter or rule drawn in the table's own shape, as the columns it reads over the values it matches, then the columns it writes, not a sentence about them.
   - A change shown as ~~old~~ → new, not "changed from X to Y".
   - A search match highlighted where it occurred, not reported beside it.
   - Alternatives as separate groups joined by an "or" token; conditions that must all hold share one group.
   - Counter-example: a symbol for "contains" or "between" is a code to learn; the word stays.
 - **A menu needs more than one item.** A menu holding a single item is a button in disguise. Put the control on the surface, or find what else belongs in the menu.
-- **A disabled control says why.** Its tooltip carries the reason it cannot be used, so the user learns what would enable it without guessing.
+- **A disabled control says why.** Its hover card carries the reason it cannot be used, so the user learns what would enable it without guessing.
 - **A click lands ready to act.** Click-to-edit opens the field ready: caret at the end for text, list open for a select. One gesture, not two.
 - **Every chosen value can be unchosen.** A field that starts empty keeps its empty option after a value is picked.
 - **Tables read top-down.** Controls that change what a table shows (page size, paging, filters, view switches) sit in one row above it, right-aligned, with what the table holds on the left; that row stays in view on long pages. What sums up the reading, such as a selection count, sits below the table. Previous and next sit side by side with their state between them, and page size defaults to what fits a screen.
