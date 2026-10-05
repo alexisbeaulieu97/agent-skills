@@ -1,6 +1,6 @@
 ---
 name: personal-ui-preferences
-description: Use when designing, implementing, or reviewing UI/UX for Alexis, or curating personal design preferences from his feedback. Also use it when reviewing screenshots of an interface, brainstorming UX options, or writing UI specs and plans, even when Alexis does not mention preferences.
+description: Alexis's confirmed UI and UX defaults. Use when designing, building or reviewing an interface or a screenshot of one, brainstorming UX options, writing UI specs or plans, or curating these preferences from feedback.
 ---
 
 # Personal UI preferences
