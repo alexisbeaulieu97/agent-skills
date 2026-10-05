@@ -14,7 +14,11 @@ terms without learning its specification. Every judgment below serves that reade
 - **Define the concept's identity and the role that distinguishes it.** What a thing does
   belongs in its definition when that is what sets it apart; how it does it, when, and under
   which conditions is specification, and lives in the project's authoritative documents
-  (domain model, design, security model, change log), which the glossary may point to.
+  (domain model, design, security model, change log), which the glossary may point to. Before
+  taking specification out, check that its home already says it, and move it there if not.
+  A definition may use other terms of the glossary, as long as the reader needn't chase a
+  chain of them; one that keeps growing usually holds a second term or a rule that belongs in
+  the specification.
 - **Preserve the distinctions people reason about.** Terms that look alike but name different
   things, or a subtype that people think about on its own, keep their own entries.
 - **Keep it current.** History belongs to the change log, unless readers still meet the old
