@@ -75,14 +75,13 @@ result and leave the method to the agent.
   the user starts. Some harnesses (Copilot CLI) then hide the skill from the
   model entirely, so a skill that other skills load stays model-invocable.
 - **Placement.** Each fact lives in the skill of the system that defines it
-  (if it changed, whose change would it be?). Other skills refer to it by
-  the skill's name, never by restating its content, so it can change
-  without them. References point from specific to general: a skill about
-  one domain may name the general skills it builds on, and a general skill
-  never names a domain skill, so it stays true for work that has nothing to
-  do with that domain. What varies from one project to the next is best
-  stated in the project itself (a template, a contributing guide, a
-  check), with the skill saying the project's own rules win.
+  (if it changed, whose change would it be?). Write each skill as if no
+  other existed: never restate or name another skill; say what to do
+  ("update the relevant skills") and let the agent load what applies. A
+  general skill holds no domain's specifics. What varies from one project
+  to the next is best stated in the project itself (a template, a
+  contributing guide, a check), with the skill saying the project's own
+  rules win.
 
 ## Testing
 
