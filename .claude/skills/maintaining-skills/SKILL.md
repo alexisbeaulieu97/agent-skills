@@ -92,7 +92,8 @@ with it:
 
 1. Write the request as a user would phrase it, not in the skill's words:
    a request that echoes the skill measures reading, not understanding.
-   Name the skills that should and should not load, and write a few yes/no
+   Make it substantial enough that an agent would look for help; a simple
+   one loads no skill whatever the description says. Name the skills that should and should not load, and write a few yes/no
    criteria before running anything.
 2. Pair it with a near-miss: a request that sounds alike but where the
    skill should not apply, or should apply differently.
