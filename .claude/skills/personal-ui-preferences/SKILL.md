@@ -14,11 +14,11 @@ Confirmed personal defaults. Apply them in context; the user's current direction
 - **Truncate to one line, reveal on hover.** Long text in a list or cell keeps one line and shows the full value on hover or focus, never by widening the row or blocking the action that produced it. Use the space before truncating: text is cut only when its container runs out of room, never at a fixed cap while space is free.
 - **Hover cards, not browser tooltips.** Information shown on hover or focus (a cut-off value, what an icon means, why a control waits) opens in a styled card, never the browser's `title` tooltip.
 - **A layout switches as a whole.** A compact layout (stacked, arrow turned down) replaces the wide one completely; parts never wrap on their own into a mix of the two.
+- **The simplest wording that carries the message.** Say what happened and what to do, once. Cut words that repeat each other ("updated after being changed") or repeat what the screen already shows (a step already marked current). Prefer one wording that is true in every state over a variant for each state.
+- **One cue per meaning.** When layout already tells something apart (a Before section, an After section), don't repeat it with colour, strikethrough or icons. Save colour for the one thing the layout can't show, and give it one meaning everywhere it appears.
 
 ## Placement
 
-- **The simplest wording that carries the message.** Say what happened and what to do, once. Cut words that repeat each other ("updated after being changed") or repeat what the screen already shows (a step already marked current). Prefer one wording that is true in every state over a variant for each state.
-- **One cue per meaning.** When layout already tells something apart (a Before section, an After section), don't repeat it with colour, strikethrough or icons. Save colour for the one thing the layout can't show, and give it one meaning everywhere it appears.
 - **Match prominence to frequency.** Keep routine actions close to their content. Put occasional settings in a discoverable menu; keep their consequential effects apparent.
 - **Place a control beside its effect.** Proximity tells the user what a control changes, before any label does. When several spots compete, the one nearest the thing affected wins, even over grouping with similar-looking fields.
 - **A preference lives on the thing it describes.** Store a setting on the entity whose fact it is, not on whichever object is in hand when it comes up. A billing cycle belongs to the account, not to the file format that happens to feed it.
