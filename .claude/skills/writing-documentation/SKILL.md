@@ -13,21 +13,21 @@ anything here.
 
 For each piece of information, settle three things:
 
-- **Right information:** is it worth writing down? Leave out what a reader finds faster in
-  the code, a tool's help or the live system, unless the reader needs an interpretation of
-  it, and what nobody will act on. If software can check it, a check beats a sentence.
+- **Right information:** is it worth writing down? Leave out what nobody will act on, and
+  what a reader finds faster in the code, a tool's help or the live system unless they need
+  it interpreted. If software can check it, a check beats a sentence.
 - **Right place:** which document's question does it answer? Confirm with *if this fact
   changed, which document would change first?* Projects split their questions differently;
   as an illustration only: a glossary answers what a term means, a domain model what concepts
   exist and how they relate, a design what the system should do, a security model what must
   stay true for it to be secure, an architecture document how it is built, a runbook how to
   perform or recover an operation, a decision record why a choice was made, and a README what
-  this is and where to go next. Follow the documents the project already has.
+  this is and where to go next. Follow the documents the project already has. A rule goes in
+  the narrowest scope that covers every case it holds for: a general principle in shared
+  guidance, a house rule in the project, an exact rule in a check.
 - **Right resolution:** how much of it belongs here? The same concept appears at different
   depths: its meaning in one place, its relationships in another, its implementation in a
-  third. Each document carries only the depth its own question needs. A rule goes at the
-  narrowest level where it stays true: a general principle in shared guidance, a house rule
-  in the project, an exact rule in a check.
+  third. Each document carries only the depth its own question needs.
 
 ## Applying and redefining
 
