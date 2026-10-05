@@ -61,10 +61,11 @@ result and leave the method to the agent.
 
 - **Description.** The only part always loaded, so it routes rather than
   instructs: third person, what the skill covers, then the intents that
-  should load it, one per distinct meaning. It shares the context with every
-  other skill's description, so it claims only its own ground; make it more
-  insistent only after the skill was seen not to load. Aim for under 60
-  words (hard limit 1024 characters).
+  should load it, one per distinct meaning, in words a user would say, with
+  the main use first. It shares the context with every other skill's
+  description, so it claims only its own ground; make it more insistent
+  only after the skill was seen not to load. Aim for under 60 words (hard
+  limit 1024 characters).
 - **Name.** Lowercase letters, digits and hyphens, at most 64 characters,
   matching the directory; "claude" and "anthropic" are reserved.
 - **Body.** SKILL.md holds what every use needs. What only some uses reach
