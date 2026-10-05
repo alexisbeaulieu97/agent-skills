@@ -86,28 +86,17 @@ Before setting frontmatter or splitting a skill into files, check the
 skill format's specification and the documentation of each harness that
 will load it.
 
-## Finding out whether it works
+## Learning from use
 
-A skill is measured by transfer: whether it improves decisions in cases it
-never names. Improvement only on the cases it describes does not show
-that. Structure checks say nothing about this; cases kept outside the skill
-do:
+A skill improves through use: everyday work brings the cases it never
+names. When an agent working with it does something its owner would not,
+find out why before changing anything, change the one idea responsible,
+and watch the next uses for whether that helped. Because each idea is a
+unit, the effect of a change can be traced to it; a change spread across
+several ideas cannot be. More text fixes only guidance that was missing.
 
-1. Write the request as a user would phrase it, not in the skill's words,
-   and substantial enough that an agent would look for help. Include
-   requests the skill never mentions, and a near-miss: one that sounds
-   alike but where the skill should not apply, or should apply differently.
-2. Test the skill the way it is used. Where what it produces guides later
-   work, give that to a fresh agent doing the work, and judge the work. Run
-   it on each agent that will load the skill; they differ.
-3. Run the previous version and the new one in fresh sessions whose
-   folders, files and prompt look like ordinary work. Judge the results
-   against the outcomes the skill is meant to produce, written down apart
-   from its wording, using checks written before the run that the sessions
-   under test never see, and without knowing which version produced which.
-4. A case the previous version already passes does not test the change.
-   Results vary from one batch of sessions to the next, so trust only a
-   difference that repeats in a separate batch.
-
-When an agent missed what a skill says, find out why before changing it,
-and fix that cause. More text fixes only guidance that was missing.
+A test in fresh sessions answers a question use would answer too slowly or
+too riskily, such as whether a safeguard holds. Test the skill the way it
+is used, keep the test hidden from the sessions under test, and judge
+without knowing which version produced which. Results vary from one batch
+to the next, so trust only a difference that repeats in a separate batch.
