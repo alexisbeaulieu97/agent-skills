@@ -1,9 +1,9 @@
 ---
-name: skill-writing
-description: How to write, revise and test agent skills (SKILL.md files and their references) so agents use them well. Use when creating or editing a skill, tuning a skill's description, deciding what belongs in a skill or where, or checking whether a skill change improved behaviour.
+name: maintaining-skills
+description: How to write, revise and test agent skills (SKILL.md files and their references) so agents use them well, and keep what they produced in line with them. Use when creating or editing a skill, tuning a skill's description, deciding what belongs in a skill or where, or checking whether a skill change improved behaviour.
 ---
 
-# Writing skills
+# Maintaining skills
 
 A skill earns its place by changing what an agent does, at the lowest cost
 in context: its description is read in every session, its body in every
