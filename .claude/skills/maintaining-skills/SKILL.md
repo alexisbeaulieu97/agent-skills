@@ -1,120 +1,113 @@
 ---
 name: maintaining-skills
-description: How to write, revise and test agent skills (SKILL.md files and their references) so agents use them well, and keep what they produced in line with them. Use when creating or editing a skill, tuning a skill's description, deciding what belongs in a skill or where, or checking whether a skill change improved behaviour.
+description: How to write, revise and test agent skills (SKILL.md files and their references) so they improve an agent's judgment without replacing it. Use when creating or editing a skill, tuning a skill's description, deciding what belongs in a skill or where, or checking whether a skill change improved behaviour.
 ---
 
 # Maintaining skills
 
-A skill earns its place by changing what an agent does, at the lowest cost
-in context: its description is read in every session, its body in every
-session that loads it. Write what the agent cannot know or find out, so that
-it decides well in cases the skill never names.
+A skill shapes an agent's judgment without replacing it. Each idea in it
+should improve a decision the agent would otherwise get wrong, including in
+cases the skill never names, without constraining decisions the agent could
+make well on its own.
 
-## What goes in
+## How agents read a skill
 
-Teach how to think rather than what to match. Open with the one principle
-the skill's judgments serve; an agent that knows what is being optimized can
-decide the cases the skill leaves out. Then give:
+What to write follows from how it is read. Each fact below comes with what
+it means for the author.
 
-- what a good result looks like, stated so it can be checked;
-- the constraints that protect shared systems and anything irreversible:
-  preview first, say what selects the objects an action touches, how to
-  recover, and wait for the user's approval;
-- the reason behind an idea when it changes how the idea applies at the
-  edges; an idea that is clear on its face needs none.
+- Only the description is always in context. The agent loads a skill on it
+  alone, among many others, and handles a simple request without loading
+  any. So the description says what the skill covers and the requests it
+  serves, in the language users are likely to use, and claims only its own
+  ground; it grows more insistent only after the skill was seen not to
+  load.
+- Anything a skill copies from elsewhere goes stale when the source changes,
+  and an agent cannot tell a stale copy from a current one. So a skill
+  states only what it is the source of truth for, such as its owner's
+  judgment and conventions, and for anything else says where to look and
+  when.
+- Text depends on the agent's cooperation; a check, a template field, a
+  permission or a script does not. So what can be enforced is enforced, and
+  recurring work fully determined by its input becomes a script the skill
+  runs.
+- An agent generalises from a principle and its reason, and matches a list.
+  So an open set is given as the principle that produces it, with cases as
+  illustrations; a list is kept for a set that is truly complete, such as
+  the steps of a procedure.
+- An agent copies an example's incidental details. So examples differ in
+  everything but the point they share, and say they are illustrations.
+  Anything that may leave its owner's hands uses invented names.
+- An agent acts on a statement at the strength its wording carries: "must",
+  "never" and "rule" bind, "prefer" and "idea" leave room, and capitals or
+  "CRITICAL" spread a statement past its intent. So each statement is worded
+  at the strength it has: how far the agent may depart from it, and how
+  sure it is.
+- An agent follows a method or an order it is given, even where another
+  would serve better. So method and order are given only where they matter;
+  elsewhere the skill describes the result, in terms the agent can check.
+- A prohibition tells the agent what to avoid but not what to do. So a
+  skill says what to do, and adds a prohibition only where that leaves a
+  costly wrong action open; an action that cannot be undone gets its
+  safeguard from the start.
+- An agent reads two names as two things and a past state as a current
+  one. So each concept keeps one term, and the skill states current
+  behaviour, not its history.
+- An agent cannot count on another skill being loaded, but it sees every
+  skill's description. So a skill works on its own and leaves routing to
+  descriptions: it states the task plainly enough to match the skill that
+  owns it, without naming or restating that skill. When that skill fails
+  to load, the instruction or its description is unclear; a clearer
+  description serves every route to it, a name only one.
+- An agent opens a reference only when its pointer says when it is worth
+  reading. So each pointer says when.
 
-Each idea stands on its own, narrow enough that why it is there and how to
-test it are plain from the text. When they are not, the idea is unclear or
-holds more than one; rewrite or split it before changing what it says.
+## Questions to ask of a draft
 
-Leave out what the agent does well by default. Anything a skill copies from
-elsewhere goes stale when the source changes, and an agent cannot tell a
-stale copy from a current one; so a skill states only what it is the source
-of truth for, such as its owner's judgment and conventions, and for
-anything else says where to look and when. Say nothing twice.
+- What decision does each idea improve, why does that matter where it is
+  not obvious, and how would you know it worked? When you cannot tell, the
+  idea is unclear or holds more than one; rewrite or split it.
+- How far may the agent depart from each statement, and does its wording
+  say so?
+- Where an idea comes from a result that worked, does it keep the criterion
+  that produced the result, or only the result's shape?
+- Does it constrain a decision the agent could make well on its own? An
+  owner's conventions are not such decisions; they stay, at the strength
+  the owner gave them.
+- If this fact changed, whose change would it be? It belongs at the
+  narrowest scope where it stays true: the skill of the system that defines
+  it, and the project itself for what varies by project, whose own
+  conventions win.
+- Where a mistake would be costly or cannot be undone, is the safeguard
+  stated as a constraint?
+- Before you finish, reread each list you wrote: if an agent following it
+  would check its items and stop, put the principle first.
 
-Before writing a rule, ask whether something could enforce it instead: a
-check, a template field, a permission, a script. Work whose output is fully
-determined by its input and recurs belongs in a script the skill runs.
+Before setting frontmatter or splitting a skill into files, check the
+skill format's specification and the documentation of each harness that
+will load it.
 
-Be exact only where deviation breaks something; elsewhere describe the
-result and leave the method to the agent.
+## Finding out whether it works
 
-## How it reads
+A skill is measured by transfer: whether it improves decisions in cases it
+never names. Improvement only on the cases it describes does not show
+that. Structure checks say nothing about this; cases kept outside the skill
+do:
 
-- Phrase instructions as what to do. Add a prohibition only after an agent
-  actually did the wrong thing, and only if it would help most sessions;
-  actions that cannot be undone get their safeguard from the start. The
-  incident behind a rule goes in the commit message, not the skill.
-- Write calmly. Capitals and "CRITICAL" make current models apply a rule
-  too broadly; a reason works better than emphasis.
-- A list of cases gets matched: an agent checks its items and stops. Lead
-  with the principle that produces them and present the cases as
-  illustrations; a complete list, such as the steps of a procedure, stays a
-  list. When options must be listed, give each the situation it fits and
-  the one where it does not. Before you finish, reread each list you wrote:
-  if an agent following it would check its items and stop, put the
-  principle first.
-- Examples are several, varied in the ways that matter, and labelled as
-  illustrations. Anything that may leave its owner's hands uses invented
-  names.
-- Choose each word for how an agent will act on it. A "rule" is obeyed
-  and an "idea" weighed; "must" binds where "prefer" leaves room. Give
-  each idea the strength it needs, no more.
-- One term per concept, kept throughout. State current behaviour, not the
-  history of how it came to be.
-- Give order only where results depend on each other, and end each step on
-  something checkable.
-
-## Shape and routing
-
-- **Description.** The only part always loaded, so it routes rather than
-  instructs: third person, what the skill covers, then the intents that
-  should load it, one per distinct meaning, in words a user would say, with
-  the main use first. It shares the context with every other skill's
-  description, so it claims only its own ground; make it more insistent
-  only after the skill was seen not to load. Aim for under 60 words (hard
-  limit 1024 characters).
-- **Name.** Lowercase letters, digits and hyphens, at most 64 characters,
-  matching the directory; "claude" and "anthropic" are reserved.
-- **Body.** SKILL.md holds what every use needs. What only some uses reach
-  goes in `references/`, one level deep, each pointer saying when to read
-  it ("read references/x.md when ..."); a reference past about 100 lines
-  opens with a list of its contents. Keep SKILL.md well under 500 lines.
-- **Invocation.** Set `disable-model-invocation: true` only on a process
-  the user starts. Some harnesses (Copilot CLI) then hide the skill from the
-  model entirely, so a skill that other skills load stays model-invocable.
-- **Placement.** Each fact lives in the skill of the system that defines it
-  (if it changed, whose change would it be?). Write each skill as if no
-  other existed: never restate or name another skill; say what to do
-  ("update the relevant skills") and let the agent load what applies. A
-  general skill holds no domain's specifics. What varies from one project
-  to the next is best stated in the project itself (a template, a
-  contributing guide, a check), with the skill saying the project's own
-  rules win.
-
-## Testing
-
-Structure checks (frontmatter, size, links) say nothing about behaviour.
-Behaviour is tested with cases, kept outside the skill so they never ship
-with it:
-
-1. Write the request as a user would phrase it, not in the skill's words:
-   a request that echoes the skill measures reading, not understanding.
-   Make it substantial enough that an agent would look for help; a simple
-   one loads no skill whatever the description says. Name the skills that should and should not load, and write a few yes/no
-   criteria before running anything.
-2. Pair it with a near-miss: a request that sounds alike but where the
-   skill should not apply, or should apply differently.
-3. Run it in a fresh session, once with the previous version of the skills
-   and once with the new one, and compare the two plans without knowing
-   which is which, each judged on what it would actually do. A plan is
-   usually enough to show the behaviour and costs far less than a full run.
-   Keep the test hidden from the session under test: its folders, files
-   and prompt look like ordinary work, with no word that suggests a test.
+1. Write the request as a user would phrase it, not in the skill's words,
+   and substantial enough that an agent would look for help. Include
+   requests the skill never mentions, and a near-miss: one that sounds
+   alike but where the skill should not apply, or should apply differently.
+2. Test the skill the way it is used. Where what it produces guides later
+   work, give that to a fresh agent doing the work, and judge the work. Run
+   it on each agent that will load the skill; they differ.
+3. Run the previous version and the new one in fresh sessions whose
+   folders, files and prompt look like ordinary work. Judge the results
+   against the outcomes the skill is meant to produce, written down apart
+   from its wording, using checks written before the run that the sessions
+   under test never see, and without knowing which version produced which.
 4. A case the previous version already passes does not test the change.
-   Trust only differences that repeat.
+   Results vary from one batch of sessions to the next, so trust only a
+   difference that repeats in a separate batch.
 
-When a skill changes, what it already produced may no longer match it:
-skills written to the old rules, an interface built to an old preference.
-Find what you can reach and offer to bring it in line.
+When an agent missed what a skill says, find out why before changing it,
+and fix that cause. More text fixes only guidance that was missing.
