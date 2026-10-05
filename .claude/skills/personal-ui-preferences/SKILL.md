@@ -5,7 +5,7 @@ description: Use when designing, implementing, or reviewing UI/UX for Alexis, or
 
 # Personal UI preferences
 
-Confirmed personal defaults. Apply them in context; the user's current direction takes precedence. This shared copy is canonical for Codex and Claude.
+Confirmed personal defaults. Apply them in context; the user's current direction takes precedence.
 
 ## Density and copy
 
