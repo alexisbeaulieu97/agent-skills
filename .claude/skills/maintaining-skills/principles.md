@@ -10,5 +10,4 @@ that reaches them, and a change to the wording is judged against them.
 - It states only what it is the source of truth for.
 - It keeps its owner's conventions and preferences at the strength the owner
   gave them.
-- A change to it was shown to work, on cases it does not name, before it was
-  kept.
+- A change to it touches one idea, so its effect shows in the next uses.
