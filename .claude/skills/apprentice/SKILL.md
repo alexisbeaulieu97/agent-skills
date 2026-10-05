@@ -63,8 +63,7 @@ the user confirmed it or you saw it demonstrated.
 4. **Write.** Update the relevant skills: results, conditions, reasons and
    principles, general enough for the cases the lesson did not show. A
    lesson usually touches several skills and sections, and may make
-   existing content obsolete. Mark changed sections
-   `<!-- taught YYYY-MM-DD -->`.
+   existing content obsolete.
 5. **Test.** Test the changes, including the hardest variation of the
    task the lesson did not show.
 6. **Review.** Present the diff, what went where and why, the cases and
