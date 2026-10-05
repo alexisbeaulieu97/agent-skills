@@ -5,11 +5,13 @@ terms without learning its specification. Every judgment below serves that reade
 
 - **Include a term when that reader would otherwise misread it or not know it.** A term that
   means what the field already means, or that the reader never meets, costs a lookup and
-  returns nothing.
+  returns nothing: in an online shop's docs, for illustration, "order" and "login" need no
+  entry unless the project narrows them.
 - **Define the concept's identity and the role that distinguishes it.** What a thing does
   belongs in its definition when that is what sets it apart; how it does it, when, and under
-  which conditions is specification, and lives in the project's authoritative documents
-  (see the main skill on placement), which the glossary may point to.
+  which conditions, and how it looks or where it is shown, is specification, and lives in the
+  project's authoritative documents
+  (see "Right place" in the main skill), which the glossary may point to.
   A definition may use other terms of the glossary, as long as the reader needn't chase a
   chain of them; one that keeps growing usually holds a second term or a rule that belongs in
   the specification.
