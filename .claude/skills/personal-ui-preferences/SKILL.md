@@ -9,8 +9,9 @@ Confirmed personal defaults. Apply them in context; the user's current direction
 
 ## Density and copy
 
-- **Earn visible space.** Favor information density by removing repetition and obvious explanations. Let surrounding context supply meaning; retain wording that clarifies the action or changes interpretation. “Import transactions” can be better than “Import.” Preserve readable text and comfortable targets.
+- **Earn visible space.** Favor information density by removing repetition and obvious explanations. Let surrounding context supply meaning; retain wording that clarifies the action or changes interpretation. “Import transactions” can be better than “Import.” A menu item is its label, without a description line under it. Preserve readable text and comfortable targets.
 - **Don't ask what the data already says.** When one fixed rule reads every accepted value unambiguously, apply it and drop the setting. When a value can be derived from what the user already gave, show it as an editable fact instead of asking for it. Ask only where the values genuinely cannot decide, and state the accepted shape with an example ("year, month, day, like 2026/08/11"), never a pattern.
+- **Quiet while fine.** A status view answers "is everything fine?" at a glance: each item shows its state cue and its name, and adds words only while something is wrong, saying what. How long it has been fine, the name of the normal state ("running", "healthy"), and fixed attributes (a version, a priority, an update waiting) stay off it and live on the item's own page. Where the item's page reports a fine state, a short phrase does, never a sentence listing everything that is not wrong.
 - **Truncate to one line, reveal on hover.** Long text in a list or cell keeps one line and shows the full value on hover or focus, without widening the row or covering the control the user is pointing at. Use the space before truncating: text is cut only when its container runs out of room, never at a fixed cap while space is free.
 - **Hover cards, not browser tooltips.** Information shown on hover or focus (a cut-off value, what an icon means, why a control waits) opens in a styled card, never the browser's `title` tooltip.
 - **A layout switches as a whole.** A compact layout (stacked, arrow turned down) replaces the wide one completely; parts never wrap on their own into a mix of the two.
@@ -23,7 +24,9 @@ Confirmed personal defaults. Apply them in context; the user's current direction
 - **Place a control beside its effect.** Proximity tells the user what a control changes, before any label does. When several spots compete, the one nearest the thing affected wins, even over grouping with similar-looking fields.
 - **A preference lives on the thing it describes.** Store a setting on the entity whose fact it is, not on whichever object is in hand when it comes up. A billing cycle belongs to the account, not to the file format that happens to feed it.
 - **A list is a queue or a record, never both.** Items waiting on the user and history that explains something are different kinds. Show the queue where the user acts. Reach a record from the thing it explains, rather than mixing both in one list and filtering them apart with a setting.
-- **Give the page to the current work.** Keep persistent navigation and profile controls outside the content header; use that header for context and actions. For sidebar layouts, prefer icon-and-text navigation, collapsible groups, and a profile footer.
+- **Give the page to the current work.** Keep persistent navigation and profile controls outside the content header; use that header for context and actions. A title names the thing: its version, facts, badges and an identity the surroundings already give go in the body. For sidebar layouts, prefer icon-and-text navigation, collapsible groups, and a profile footer, at a width that fits the content by default and can be dragged.
+- **Every region earns its place.** A navigation pane holds the things to navigate to: no counts, bulk actions or summaries in it. Occasional destinations (settings, history) sit in the profile footer's menu, not beside the content. Add no top bar or status bar unless it carries something no other region can.
+- **Appearance follows the system.** Light and dark follow the operating system's setting; no theme switch.
 
 ## Controls
 
@@ -53,6 +56,7 @@ Confirmed personal defaults. Apply them in context; the user's current direction
 
 - **Nothing moves when a setting changes.** Changing a setting changes what is shown, never where the rest of the page sits. Whatever the setting reveals, a control, a count, a notice or a panel, has its place reserved (rendered empty or disabled) or appears after what is already there, so the things the user was looking at stay where they were. People relocate by position before they reread a label.
 - **Group by meaning, then let groups breathe.** Related items sit close together. Separate groups spread across the available space instead of piling into one corner. Spread the groups, not the elements inside them.
+- **State leads, controls trail.** In a row or a group header, the state cue sits at the leading edge and a disclosure chevron or menu at the trailing edge. A group header's cue shows the worst state inside, open or folded.
 - **Align rows by centre.** When text and a button share a row, they read as the same height, and the text is vertically centred on the button's centre, never its baseline or top.
 - **Whatever shares an edge shares a line.** Elements that sit along the same edge of the window or the same row of a layout, such as a sidebar footer beside a content footer or a header beside a toolbar, match in height and border, reach the edges they sit between, and stay put when the page ends. Two neighbours a few pixels apart read as a mistake.
 
