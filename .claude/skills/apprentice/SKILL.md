@@ -60,20 +60,18 @@ the user confirmed it or you saw it demonstrated.
    acceptable. Present each proposal with what it changes, what it gains and
    what it risks. If the work is already done well, say so: that is a
    finding, not a failure.
-4. **Place.** Split the knowledge by owner.
-   A lesson usually touches several skills and sections, and may make
-   existing content obsolete.
-5. **Write.** Record your understanding: results, conditions, reasons and
-   principles, general enough for the cases the lesson did not show. Mark
-   changed sections `<!-- taught YYYY-MM-DD -->`.
-6. **Test.** Write two cases: the hardest variation of the task the lesson
-   did not show, and a near-miss where this knowledge should not apply. Where the new version misses a
-   criterion, fix the skills.
-7. **Review.** Present the diff, what went where and why, the cases and
+4. **Write.** Update the relevant skills: results, conditions, reasons and
+   principles, general enough for the cases the lesson did not show. A
+   lesson usually touches several skills and sections, and may make
+   existing content obsolete. Mark changed sections
+   `<!-- taught YYYY-MM-DD -->`.
+5. **Test.** Test the changes, including the hardest variation of the
+   task the lesson did not show.
+6. **Review.** Present the diff, what went where and why, the cases and
    their results. Save what the user approves.
 
 Skills maintained by others stay as they are; the user's version goes in
-their own skill, with a pointer to the other.
+their own skill.
 
 The first real run after a lesson is yours, with the user watching; their
 corrections update the skills the same way.
