@@ -1,65 +1,62 @@
 ---
 name: writing-glossaries
-description: Use when writing, editing or reviewing a project glossary, or when a design or spec starts collecting capitalised domain terms, so each term gets one identity sentence and rules stay out of it.
+description: How to write, prune and order a glossary of a project's own terms. Use when creating or editing a glossary, reviewing one that has grown into rules or history, or when a design starts using capitalised terms that need defining.
 ---
 
 # Writing glossaries
 
-A glossary answers one question: *I met a capitalised word here; what does it mean?* Optimise
-for that reader and nothing else.
+A glossary answers one question: *I met a capitalised word here; what does it mean?* Every
+choice below serves that reader. A term earns a row only when that reader, knowing the field
+but not this project, would otherwise misread the word or not know it at all.
 
-## Shape
+## A good glossary
 
-- **Two columns: Term and Meaning.** No avoid-lists, examples, notes or extra columns.
-- **One sentence per term.** If it needs two, the term is doing two jobs or the second sentence
-  belongs somewhere else.
-- **No history.** Drop retired words and old synonyms; the change log keeps them. Keep one only
-  while migration work still needs it.
-- **Related terms sit together.** Order rows so a reader meets a term next to the ones it
-  depends on (who, the things they own, what those are made of, what they show), never
-  alphabetically.
+- Two columns, Term and Meaning, and one sentence per meaning. A meaning that needs a second
+  sentence is either two terms or a rule that belongs elsewhere.
+- Each sentence says what the thing *is*. What it does, when, and under which conditions lives
+  in the documents listed below, where it can change without the vocabulary changing.
+- A meaning may use other terms of the glossary, as long as a reader needs to follow at most
+  one or two of them to understand it.
+- Rows sit next to the terms they depend on: whoever acts, then what they own, what that is
+  made of, and what it shows. A reader scanning a group then meets related words together.
+- The words are the current ones. What a term replaced, and why, belongs to the change log;
+  keep an old synonym only while migration work still needs it.
+- The meanings stay true when the implementation changes, so they hold no paths, keys,
+  routes, flags, durations or sizes.
 
-## What a definition says
+## Where the rest goes
 
-- **Only words with a meaning specific to this project.** A standard concept under its usual
-  name gets no row, unless the project gives it a narrower or different meaning; then the row
-  says only that meaning.
-- **Identity, not behaviour.** Say what the thing *is*. What it does, when, and under which
-  rules goes elsewhere.
-- **Terms from the glossary may be used freely,** but keep chains shallow: a reader should
-  never follow more than one or two links to understand a row.
-- **No implementation details:** no paths, keys, routes, flags, durations, sizes, section
-  references, dates or quotes.
-
-## Where everything else goes
+A glossary attracts content that belongs elsewhere. Use the project's own documents when it
+has them; these are the usual homes:
 
 | Content | Home |
 | --- | --- |
-| Relationships and invariants ("a group's status is its worst member's") | the domain model |
+| Relationships and invariants, such as how one term's value derives from another's | the domain model |
 | UI behaviour and copy rules | the design |
-| Security guarantees ("this needs re-authentication") | the security model |
-| Why a word was chosen, and what it replaced | the change log or a decision record |
+| Security guarantees, such as which operations need re-authentication | the security model |
+| Why a word was chosen and what it replaced | the change log or a decision record |
 
-Before deleting a rule from the glossary, check that its home already says it; move it there
-if not.
+Before taking a rule out of the glossary, check that its home already says it, and move it
+there if not.
 
-## Pass over an existing glossary
+## Pruning an existing glossary
 
-Run these in order, and show the user every cut, merge and rename before applying them:
+Each step changes what the next one works on, so take them in this order. Show the user every
+cut, merge and rename, with the reason, before applying any of them; a rename touches every
+document that uses the word.
 
-1. **Cut** a term that is:
-   - a standard concept under a coined name (call it what the field calls it, and use that
-     plain wording in the design too);
-   - internal plumbing the reader never meets (it belongs to the design);
-   - a special case of another term (say it with the general term);
-   - a standard concept under its usual name, used in its usual sense.
-
-   A cut word is no longer capitalised where the project uses it; where it is still needed,
-   the text explains it in plain words.
-2. **Merge** two rows when one is only the type, a variant or an alternative path of the
-   other: the general row names its types or variants in its one sentence.
-3. **Rename** a term whose ordinary meaning misleads (a word that reads as a tier, a size or a
-   different field's concept), and rename it everywhere the project uses it, in one change.
-4. **Keep apart** terms that look alike but name different things (a verdict and the state it
-   is derived from); the glossary exists for exactly those.
-5. **Order** the survivors by relation.
+1. **Cut** each term that fails the admission test above. Typical cases, as illustrations: a
+   standard concept, whether under its usual name or a coined one; plumbing the reader never
+   meets; a special case of another term. A coined name for a standard concept is replaced by
+   the field's plain wording wherever the project uses it, and any cut word loses its capital
+   in the project's documents, so no reader meets a capitalised word the glossary does not
+   define.
+2. **Merge** two rows when one is only a type, a variant or an alternative route of the other;
+   the general row names its types or variants in its one sentence.
+3. **Rename** a term whose everyday meaning misleads, such as a word that reads as a rank or
+   belongs to another field, everywhere the project uses it, in one change.
+4. **Keep apart** terms that look alike but name different things, such as a verdict and the
+   observation it is derived from; telling those apart is what the glossary is for.
+5. **Order** the remaining rows by relation, then read the table top to bottom as a newcomer
+   would and check that no meaning depends on a row further down that it cannot be read
+   without.
