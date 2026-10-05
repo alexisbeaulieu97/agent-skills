@@ -27,10 +27,11 @@ Each idea stands on its own, narrow enough that why it is there and how to
 test it are plain from the text. When they are not, the idea is unclear or
 holds more than one; rewrite or split it before changing what it says.
 
-Leave out what the agent does well by default, and what it can find by
-looking: a tool's `--help`, a config file, the live system. A skill that
-restates them is a cache that goes stale; say where to look instead, and let
-the live system win when the two disagree. Say nothing twice.
+Leave out what the agent does well by default. Anything a skill copies from
+elsewhere goes stale when the source changes, and an agent cannot tell a
+stale copy from a current one; so a skill states only what it is the source
+of truth for, such as its owner's judgment and conventions, and for
+anything else says where to look and when. Say nothing twice.
 
 Before writing a rule, ask whether something could enforce it instead: a
 check, a template field, a permission, a script. Work whose output is fully
