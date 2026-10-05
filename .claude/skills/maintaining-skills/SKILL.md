@@ -101,6 +101,8 @@ with it:
    and once with the new one, and compare the two plans without knowing
    which is which, each judged on what it would actually do. A plan is
    usually enough to show the behaviour and costs far less than a full run.
+   Keep the test hidden from the session under test: its folders, files
+   and prompt look like ordinary work, with no word that suggests a test.
 4. A case the previous version already passes does not test the change.
    Trust only differences that repeat.
 

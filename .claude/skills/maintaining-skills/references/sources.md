@@ -15,7 +15,7 @@ exists or has moved is replaced or dropped, and the date updated.
 | Anthropic, [claude-api skill](https://github.com/anthropics/skills/tree/main/skills/claude-api), `shared/` docs | 2026-09 | Pointers that say when to read a reference, pitfalls sections, step structure |
 | OpenAI, [skill-creator](https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md) | 2026-10-05 | "The context window is a public good"; scripts for fragile, deterministic steps |
 | Matt Pocock, [writing-for-agents](https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents) | 2026-10-05 | A skill that restates the environment is a cache; one trigger per meaning; the leading word first; positive targets; one term per concept |
-| Cursor, [pstack](https://github.com/cursor/plugins/tree/main/pstack/skills) (blast-radius, architect, figure-it-out) | 2026-09 | Defined deliverables; "nothing to change" as a valid result |
+| Cursor, [pstack](https://github.com/cursor/plugins/tree/main/pstack/skills) (blast-radius, architect, figure-it-out, poteto-mode's eval playbook) | 2026-10-05 | Defined deliverables; "nothing to change" as a valid result; hiding a test from the session under test |
 
 ## Prompting the models that read skills
 
