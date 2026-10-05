@@ -46,12 +46,13 @@ result and leave the method to the agent.
   incident behind a rule goes in the commit message, not the skill.
 - Write calmly. Capitals and "CRITICAL" make current models apply a rule
   too broadly; a reason works better than emphasis.
-- A list reads as exhaustive and gets followed literally. State the
-  principle that produces the cases; when options must be listed, give each
-  the situation it fits and the one where it does not.
-  Before you finish, reread each list you wrote: if an agent following it
-  would check its items and stop, put the principle that produces them
-  first.
+- A list of cases gets matched: an agent checks its items and stops. Lead
+  with the principle that produces them and present the cases as
+  illustrations; a complete list, such as the steps of a procedure, stays a
+  list. When options must be listed, give each the situation it fits and
+  the one where it does not. Before you finish, reread each list you wrote:
+  if an agent following it would check its items and stop, put the
+  principle first.
 - Examples are several, varied in the ways that matter, and labelled as
   illustrations. Anything that may leave its owner's hands uses invented
   names.
