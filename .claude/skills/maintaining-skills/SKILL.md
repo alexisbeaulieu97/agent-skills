@@ -1,6 +1,6 @@
 ---
 name: maintaining-skills
-description: How to write, revise and test agent skills (SKILL.md files and their references) so they improve an agent's judgment without replacing it. Use when creating or editing a skill, tuning a skill's description, deciding what belongs in a skill or where, or checking whether a skill change improved behaviour.
+description: How to write and revise agent skills so they improve an agent's judgment without replacing it. Use when creating or editing a skill, tuning a skill's description, deciding what belongs in a skill or where, or checking whether a skill change improved behaviour.
 ---
 
 # Maintaining skills
@@ -12,15 +12,11 @@ make well on its own.
 
 ## How agents read a skill
 
-What to write follows from how it is read. Each fact below comes with what
-it means for the author.
-
-- Only the description is always in context. The agent loads a skill on it
-  alone, among many others, and handles a simple request without loading
-  any. So the description says what the skill covers and the requests it
-  serves, in the language users are likely to use, and claims only its own
-  ground; it grows more insistent only after the skill was seen not to
-  load.
+- Only the description is always in context, and the agent loads a skill
+  on it alone, among many others. So the description says what the skill
+  covers and the requests it serves, in the language users are likely to
+  use, and claims only its own ground; it grows more insistent only after
+  the skill was seen not to load.
 - Anything a skill copies from elsewhere goes stale when the source changes,
   and an agent cannot tell a stale copy from a current one. So a skill
   states only what it is the source of truth for, such as its owner's
@@ -36,7 +32,6 @@ it means for the author.
   the steps of a procedure.
 - An agent copies an example's incidental details. So examples differ in
   everything but the point they share, and say they are illustrations.
-  Anything that may leave its owner's hands uses invented names.
 - An agent acts on a statement at the strength its wording carries: "must",
   "never" and "rule" bind, "prefer" and "idea" leave room, and capitals or
   "CRITICAL" spread a statement past its intent. So each statement is worded
@@ -66,25 +61,16 @@ it means for the author.
 - What decision does each idea improve, why does that matter where it is
   not obvious, and how would you know it worked? When you cannot tell, the
   idea is unclear or holds more than one; rewrite or split it.
-- How far may the agent depart from each statement, and does its wording
-  say so?
 - Where an idea comes from a result that worked, does it keep the criterion
   that produced the result, or only the result's shape?
 - Does it constrain a decision the agent could make well on its own? An
   owner's conventions are not such decisions; they stay, at the strength
   the owner gave them.
 - If this fact changed, whose change would it be? It belongs at the
-  narrowest scope where it stays true: the skill of the system that defines
-  it, and the project itself for what varies by project, whose own
-  conventions win.
-- Where a mistake would be costly or cannot be undone, is the safeguard
-  stated as a constraint?
+  narrowest scope where it stays true; what varies by project belongs in
+  the project, whose own conventions win.
 - Before you finish, reread each list you wrote: if an agent following it
   would check its items and stop, put the principle first.
-
-Before setting frontmatter or splitting a skill into files, check the
-skill format's specification and the documentation of each harness that
-will load it.
 
 ## Learning from use
 
