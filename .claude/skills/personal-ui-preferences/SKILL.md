@@ -1,24 +1,24 @@
 ---
 name: personal-ui-preferences
-description: Use when designing, implementing, or reviewing UI/UX for Alexis, or curating personal design preferences from his feedback. Also use it when reviewing screenshots of an interface, brainstorming UX options, or writing UI specs and plans, even when Alexis does not mention preferences.
+description: Alexis's confirmed UI and UX defaults. Use when designing, building or reviewing an interface or a screenshot of one, brainstorming UX options, writing UI specs or plans, or curating these preferences from feedback.
 ---
 
 # Personal UI preferences
 
-Confirmed personal defaults. Apply them in context; the user's current direction takes precedence. This shared copy is canonical for Codex and Claude.
+Confirmed personal defaults. Apply them in context; the user's current direction takes precedence.
 
 ## Density and copy
 
 - **Earn visible space.** Favor information density by removing repetition and obvious explanations. Let surrounding context supply meaning; retain wording that clarifies the action or changes interpretation. “Import transactions” can be better than “Import.” Preserve readable text and comfortable targets.
 - **Don't ask what the data already says.** When one fixed rule reads every accepted value unambiguously, apply it and drop the setting. When a value can be derived from what the user already gave, show it as an editable fact instead of asking for it. Ask only where the values genuinely cannot decide, and state the accepted shape with an example ("year, month, day, like 2026/08/11"), never a pattern.
-- **Truncate to one line, reveal on hover.** Long text in a list or cell keeps one line and shows the full value on hover or focus, never by widening the row or blocking the action that produced it. Use the space before truncating: text is cut only when its container runs out of room, never at a fixed cap while space is free.
+- **Truncate to one line, reveal on hover.** Long text in a list or cell keeps one line and shows the full value on hover or focus, without widening the row or covering the control the user is pointing at. Use the space before truncating: text is cut only when its container runs out of room, never at a fixed cap while space is free.
 - **Hover cards, not browser tooltips.** Information shown on hover or focus (a cut-off value, what an icon means, why a control waits) opens in a styled card, never the browser's `title` tooltip.
 - **A layout switches as a whole.** A compact layout (stacked, arrow turned down) replaces the wide one completely; parts never wrap on their own into a mix of the two.
+- **The simplest wording that carries the message.** Say what happened and what to do, once. Cut words that repeat each other ("updated after being changed") or repeat what the screen already shows (a step already marked current). Prefer one wording that is true in every state over a variant for each state.
+- **One cue per meaning.** When layout already tells something apart (a Before section, an After section), don't repeat it with colour, strikethrough or icons. Save colour for the one thing the layout can't show, and give it one meaning everywhere it appears.
 
 ## Placement
 
-- **The simplest wording that carries the message.** Say what happened and what to do, once. Cut words that repeat each other ("updated after being changed") or repeat what the screen already shows (a step already marked current). Prefer one wording that is true in every state over a variant for each state.
-- **One cue per meaning.** When layout already tells something apart (a Before section, an After section), don't repeat it with colour, strikethrough or icons. Save colour for the one thing the layout can't show, and give it one meaning everywhere it appears.
 - **Match prominence to frequency.** Keep routine actions close to their content. Put occasional settings in a discoverable menu; keep their consequential effects apparent.
 - **Place a control beside its effect.** Proximity tells the user what a control changes, before any label does. When several spots compete, the one nearest the thing affected wins, even over grouping with similar-looking fields.
 - **A preference lives on the thing it describes.** Store a setting on the entity whose fact it is, not on whichever object is in hand when it comes up. A billing cycle belongs to the account, not to the file format that happens to feed it.
@@ -29,15 +29,15 @@ Confirmed personal defaults. Apply them in context; the user's current direction
 
 - **Make appearance and interaction agree.** When a card or row presents one action, its whole surface should activate it. Icons reinforce labels and signal interaction.
 - **Switch for instant effect, checkbox for a later submit.** A switch feels mechanical: flipping it changes what is on screen right now, such as a header toggle that repaints a table. A checkbox is a concept: an option collected for a submit, such as "Save this format for next time" or an acknowledgement. Revealing a dependent field is disclosure, not effect, so a checkbox that shows a name input stays a checkbox.
-- **Icons when the meaning is universal.** A gear, a pencil, a trash can or a refresh arrow stands alone as a button. Anything less universal gets icon plus text, or text only. Icon-only controls still carry an accessible name and a tooltip.
-- **Show, don't tell.** When something can be drawn, draw it instead of describing it: seeing beats reading and decoding. Borrow shapes the screen already uses, so the picture maps onto what it describes without being learned. Stop where the picture would need a legend: keep the words that carry meaning, and fall back to text where a drawing would misstate the thing. The plain sentence stays as the accessible name and tooltip. Examples:
+- **Icons when the meaning is universal.** A gear, a pencil, a trash can or a refresh arrow stands alone as a button. Anything less universal gets icon plus text, or text only. Icon-only controls still carry an accessible name and a hover card.
+- **Show, don't tell.** When something can be drawn, draw it instead of describing it: seeing beats reading and decoding. Borrow shapes the screen already uses, so the picture maps onto what it describes without being learned. Stop where the picture would need a legend: keep the words that carry meaning, and fall back to text where a drawing would misstate the thing. The plain sentence stays as the accessible name and hover card. Examples:
   - A filter or rule drawn in the table's own shape, as the columns it reads over the values it matches, then the columns it writes, not a sentence about them.
   - A change shown as ~~old~~ → new, not "changed from X to Y".
   - A search match highlighted where it occurred, not reported beside it.
   - Alternatives as separate groups joined by an "or" token; conditions that must all hold share one group.
   - Counter-example: a symbol for "contains" or "between" is a code to learn; the word stays.
 - **A menu needs more than one item.** A menu holding a single item is a button in disguise. Put the control on the surface, or find what else belongs in the menu.
-- **A disabled control says why.** Its tooltip carries the reason it cannot be used, so the user learns what would enable it without guessing.
+- **A disabled control says why.** Its hover card carries the reason it cannot be used, so the user learns what would enable it without guessing.
 - **A click lands ready to act.** Click-to-edit opens the field ready: caret at the end for text, list open for a select. One gesture, not two.
 - **Every chosen value can be unchosen.** A field that starts empty keeps its empty option after a value is picked.
 - **Tables read top-down.** Controls that change what a table shows (page size, paging, filters, view switches) sit in one row above it, right-aligned, with what the table holds on the left; that row stays in view on long pages. What sums up the reading, such as a selection count, sits below the table. Previous and next sit side by side with their state between them, and page size defaults to what fits a screen.
