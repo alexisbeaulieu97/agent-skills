@@ -10,9 +10,8 @@ The measure of a grilling is whether it draws out of the user what lets
 this agent and future ones reach decisions the user is satisfied with,
 more accurately over time. Every judgment below serves that.
 
-Interview the user until you share an understanding of the plan, and leave
-behind what lets the next agent need fewer questions. A single decision
-rarely shows why it was made; a series of them shows how the user thinks.
+Interview the user until you share an understanding of the plan. A single
+decision rarely shows why it was made; a series of them shows how the user thinks.
 The decisions settle this plan; the reasons, once confirmed, settle the
 next ones.
 
@@ -23,16 +22,16 @@ Before asking anything, sort it:
 - **A fact** is yours to find: look it up in the work, its history or the
   tools, with a sub-agent when it takes exploring. Only the questions that
   depend on it wait.
-- **A decision the user's principles already settle** is yours to make.
+- **A decision the user's confirmed principles settle** is yours to make.
   Their principles live in the work's vision, if it has one, and in their
   personal guidance across all their work. Make the call, and list it as
   a default with the principle it follows.
 - **A decision the principles leave open** is the user's. Ask it, and ask
   for the trade-off underneath rather than the mechanism: which value wins
   here and why, with the implementation choice as the concrete case.
-  A small choice you may take yourself, but only when you can say why it
-  is the right one: the work's conventions, a principle, or a pattern in
-  the user's earlier answers points to it. Being easy to reverse lowers
+  You may take a small choice yourself only when you can say why it is
+  right: the work's conventions, a principle, or a pattern in the user's
+  earlier answers points to it. Being easy to reverse lowers
   the cost of a wrong default; it doesn't make one right. When nothing
   points either way, ask: that answer is how a new principle is found.
 
@@ -70,11 +69,11 @@ options, not to filtering weak ones.
 
 ## Flagging a better design
 
-When the answers show the request fits the current design poorly, say so
-explicitly instead of quietly fitting it in: what breaks down, the
-alternative design, and the cost of each. Put it to the user as its own
-question; quietly bending the request to the design, or the design to the
-request, hides the decision that matters most.
+When the answers show the request fits the current design poorly, raise it
+as its own question instead of fitting it in: what breaks down, the
+alternative design, and the cost of each. Bending the request to the
+design, or the design to the request, without saying so hides the decision
+that matters most.
 
 ## Learning the reasons
 
@@ -92,9 +91,9 @@ it comes from and the boundary case where you are unsure it holds.
 
 How far an agent may act on a principle depends on how it is known:
 
-- **Confirmed by the user:** the agent decides and says so.
-- **Inferred, not yet confirmed:** the agent recommends from it and still
-  asks.
+- **Confirmed by the user:** the agent decides and lists the default.
+- **Inferred, not yet confirmed:** the agent recommends from it and asks,
+  except on a small choice, which it may take as a listed default.
 - **Unknown:** the agent asks the open question.
 
 Nothing becomes a principle without the user's confirmation. Approving a
@@ -109,12 +108,13 @@ shared understanding; do not act on the plan before that. Then:
 - Summarise the decisions, each with its reason.
 - Propose the principle changes: new principles, sharpened boundaries,
   inferred ones to confirm.
-- Save what the user approves, after asking who each principle is for.
+- Save what the user approves, after working out who each principle is
+  for.
   The places named below are examples: the destination depends on what
   your harness offers at each layer, so use what you know of your own
   harness and put the principle where every agent at that layer already
   reads.
-  - **Everyone who works on this work:** principles every contributor
+  - **Everyone working on this work:** principles every contributor
     should follow, such as the product's vision and its conventions, go in
     the work's shared place, such as a document in its repository.
   - **The user, for this work:** how they personally work on it and
@@ -131,5 +131,5 @@ shared understanding; do not act on the plan before that. Then:
   When the right place doesn't exist yet, propose one. When this session
   can't write to it, give the user the text and where it goes.
 
-Fewer questions per session, and fewer overruled defaults, mean the principles
-are working.
+Fewer questions per session and fewer overruled defaults mean the
+principles are working.
