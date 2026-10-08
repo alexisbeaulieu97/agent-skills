@@ -21,13 +21,20 @@ Before asking anything, sort it:
   depend on it wait.
 - **A decision the user's principles already settle** is yours to make.
   Their principles live in the project's vision document if it has one and
-  in their personal guidance across projects. Make the call, and list it in
-  the round with the principle it follows, so the user can overrule it
-  in one word. An overruled call means the principle is missing a boundary;
-  find it with the user.
+  in their personal guidance across projects. Make the call, and list it as
+  a default with the principle it follows.
 - **A decision the principles leave open** is the user's. Ask it, and ask
   for the trade-off underneath rather than the mechanism: which value wins
   here and why, with the implementation choice as the concrete case.
+  Where a choice is small, easy to reverse and nothing points either way,
+  you may take the default yourself instead of asking.
+
+No decision is taken silently. Every default you take, from a principle or
+from your own judgment, is listed with its reasoning, so the user can see
+it and overrule it in one word. An overruled default is a lesson: when it
+followed a principle, the principle is missing a boundary; when it followed
+your judgment, the user's reason may be a principle. Find out which with
+the user.
 
 ## A round
 
@@ -39,8 +46,8 @@ The user's format for a round:
 
 - Open with a few lines of context for the round: where the plan stands,
   what the previous answers settled, and what this round decides.
-- Then the calls you made from their principles, one line each with the
-  principle.
+- Then the defaults you took, one line each with its reasoning: the
+  principle it follows, or why you judged it so.
 - Then the questions, numbered, each starting on its own line with a short
   title, followed by its context: what is at stake, what you found that
   bears on it, and the options. End each with your recommended answer and
@@ -86,5 +93,5 @@ shared understanding; do not act on the plan before that. Then:
   recommend from them and confirm them when they recur.
 - Save what the user approves.
 
-Fewer questions per session, and fewer overruled calls, mean the principles
+Fewer questions per session, and fewer overruled defaults, mean the principles
 are working.
