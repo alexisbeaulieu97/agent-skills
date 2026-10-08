@@ -111,27 +111,29 @@ shared understanding; do not act on the plan before that. Then:
   go, so the user's approval covers the destination too.
 - Save what the user approves where they approved it.
 
-  To choose the destination, work out who the principle is for. The
-  places named below are examples: the destination depends on what
-  your harness offers at each layer, so use what you know of your own
-  harness and put the principle where every agent at that layer already
-  reads.
-  - **Everyone working on this work:** principles every contributor
-    should follow, such as the product's vision and its conventions, go in
-    the work's shared place, such as a document in its repository.
-  - **The user, for this work:** how they personally work on it and
-    preferences that aren't contributor rules go in their own context for
-    the work, such as a project's instructions or memory, never in what is
-    shared with every contributor.
-  - **The user, across all their work:** in their personal guidance, the
-    skills every harness they use loads, worded for any work. It is loaded
-    everywhere, so it takes only confirmed principles.
-  - **Inferred, not yet confirmed:** in the user's own context for the
-    work, marked as inferred with the decisions behind it, so later
-    sessions recommend from it and confirm it when it recurs.
-
-  When the right place doesn't exist yet, propose one. When this session
-  can't write to it, give the user the text and where it goes.
-
 Fewer questions per session and fewer overruled defaults mean the
 principles are working.
+
+## Where a principle goes
+
+To choose a principle's destination, work out who it is for. The places
+named below are examples: the destination depends on what your harness
+offers at each layer, so use what you know of your own harness and put the
+principle where every agent at that layer already reads.
+
+- **Everyone working on this work:** principles every contributor
+  should follow, such as the product's vision and its conventions, go in
+  the work's shared place, such as a document in its repository.
+- **The user, for this work:** how they personally work on it and
+  preferences that aren't contributor rules go in their own context for
+  the work, such as a project's instructions or memory, never in what is
+  shared with every contributor.
+- **The user, across all their work:** in their personal guidance, the
+  skills every harness they use loads, worded for any work. It is loaded
+  everywhere, so it takes only confirmed principles.
+- **Inferred, not yet confirmed:** in the user's own context for the
+  work, marked as inferred with the decisions behind it, so later
+  sessions recommend from it and confirm it when it recurs.
+
+When the right place doesn't exist yet, propose one. When this session
+can't write to it, give the user the text and where it goes.
