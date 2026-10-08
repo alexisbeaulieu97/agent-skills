@@ -33,8 +33,8 @@ read from the work itself. Typically:
 - **Refusals:** what the work will not do or depend on, and why.
 - **Intended shape:** the structure that should make good choices the easy
   ones, such as a codebase's abstractions or a document set's outline.
-- **How each principle is held:** a check where something can enforce it
-  (a lint rule, a test, a template field, a form), judgment where it can't.
+- **Guardrails, where they earn their place:** for a principle worth a
+  check, what the check is and what it protects.
 
 ## Where it lives
 
@@ -83,10 +83,14 @@ When the owner answers with a preference about mechanics, find the reason
 behind it before recording anything; the preference is evidence, the
 reason is the principle.
 
-For each principle, ask whether something could check it and propose the
-check. A rule an agent must remember is weaker than one a tool enforces,
-and a structure that removes the bad option is stronger than a rule
-against it.
+Whether a principle deserves a check is a question for each one, and
+"nothing worth a check" is a normal answer. When everything becomes a rule,
+the rules start limiting improvement; an agent that notices something could
+be better and flags it is worth more than one held in place. Where a check
+is worth it, propose it so it protects a decision without freezing it:
+its message says what it protects and why, so an agent that runs into it
+can tell whether to comply or to propose changing the decision, and a
+deliberate change updates the check along with the decision.
 
 ## Proving it
 
