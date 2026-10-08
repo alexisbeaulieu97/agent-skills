@@ -84,7 +84,9 @@ owner approves.
 
 ## Keeping it true
 
-The vision changes only with the owner's confirmation. When an agent asked
+A principle enters the vision only with the owner's confirmation; one
+inferred from their decisions but not yet confirmed may be listed apart,
+marked as inferred, so agents recommend from it but still ask. When an agent asked
 something the vision should have answered, or decided against the owner's
 wish, find the missing or unclear principle, propose its wording, and
 update the vision once the owner confirms. Fewer questions and fewer
