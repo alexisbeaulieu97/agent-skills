@@ -111,9 +111,6 @@ shared understanding; do not act on the plan before that. Then:
   go, so the user's approval covers the destination too.
 - Save what the user approves where they approved it.
 
-Fewer questions per session and fewer overruled defaults mean the
-principles are working.
-
 ## Where a principle goes
 
 To choose a principle's destination, work out who it is for. The places
@@ -137,3 +134,6 @@ principle where every agent at that layer already reads.
 
 When the right place doesn't exist yet, propose one. When this session
 can't write to it, give the user the text and where it goes.
+
+Fewer questions per session and fewer overruled defaults mean the
+principles are working.
