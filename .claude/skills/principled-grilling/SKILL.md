@@ -49,9 +49,25 @@ The user's format for a round:
 - Then the defaults you took, one line each with its reasoning: the
   principle it follows, or why you judged it so.
 - Then the questions, numbered, each starting on its own line with a short
-  title, followed by its context: what is at stake, what you found that
-  bears on it, and the options. End each with your recommended answer and
-  the reason, worded so "yes" accepts it.
+  title, followed by a few lines of context: what is at stake and what you
+  found that bears on it.
+- Under each question, each option on its own line with its consequence,
+  never options run together in a paragraph.
+- Then the recommendation on its own line, with its reason, worded so
+  "yes" accepts it.
+
+For each decision, weigh as many options as the decision reasonably has,
+including ones the user didn't mention, and present only the best few,
+with one recommendation. The user's time goes to choosing between good
+options, not to filtering weak ones.
+
+## Flagging a better design
+
+When the answers show the request fits the current design poorly, say so
+explicitly instead of quietly fitting it in: what breaks down, the
+alternative design, and the cost of each. Put it to the user as its own
+question; quietly bending the request to the design, or the design to the
+request, hides the decision that matters most.
 
 ## Learning the reasons
 

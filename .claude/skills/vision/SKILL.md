@@ -74,8 +74,9 @@ confirmations; the owner's time is for what only they know.
 ## The interview
 
 Ask about the goal first, then the priorities, then the principles; each
-answer frames the next. Ask in numbered rounds, each question with a
-recommended answer, worded so "yes" accepts it.
+answer frames the next. Ask in numbered rounds: each question on its own
+line with its context, each option on its own line with its consequence,
+and the recommendation on its own line, worded so "yes" accepts it.
 
 Ask at the level of the principle and use a concrete case as the probe,
 preferably a real fork from this work. Two illustrations: "In the
