@@ -106,11 +106,13 @@ The session is done when the frontier is empty and the user confirms the
 shared understanding; do not act on the plan before that. Then:
 
 - Summarise the decisions, each with its reason.
-- Propose the principle changes: new principles, sharpened boundaries,
-  inferred ones to confirm.
-- Save what the user approves, after working out who each principle is
-  for.
-  The places named below are examples: the destination depends on what
+- Propose the principle changes (new principles, sharpened boundaries,
+  inferred ones to confirm), each with who it is for and where it would
+  go, so the user's approval covers the destination too.
+- Save what the user approves where they approved it.
+
+  To choose the destination, work out who the principle is for. The
+  places named below are examples: the destination depends on what
   your harness offers at each layer, so use what you know of your own
   harness and put the principle where every agent at that layer already
   reads.

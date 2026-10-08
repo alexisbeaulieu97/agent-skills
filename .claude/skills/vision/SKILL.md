@@ -109,8 +109,9 @@ Before calling the vision done, take a handful of real decisions the work
 still faces or recently faced, including ones the interview never touched,
 and say how the vision decides each one, citing the principle. Where the
 owner would decide differently, the vision is missing something: find
-what, fix it, and try again. Show the vision and save what the owner
-approves.
+what, fix it, and try again. Show the vision with each principle's layer
+and where it would go, so the owner's approval covers the destination too,
+and save what they approve where they approved it.
 
 ## Keeping it true
 
