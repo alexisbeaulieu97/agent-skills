@@ -117,7 +117,8 @@ approves.
 A principle enters the vision only with the owner's confirmation. One
 inferred from their decisions but not yet confirmed may be kept in the
 owner's own context for the work, marked as inferred, so agents recommend
-from it but still ask; it moves to personal guidance only once confirmed
+from it and ask, except on a small choice, which they may take as a listed
+default; it moves to personal guidance only once confirmed
 and seen to hold across different work. When an agent asked something the
 vision should have answered, or decided against the owner's wish, find the
 missing or unclear principle, propose its wording, and update the vision
