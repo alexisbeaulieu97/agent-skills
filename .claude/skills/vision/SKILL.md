@@ -38,15 +38,16 @@ read from the work itself. Typically:
 
 ## Where it lives
 
-Before choosing where a principle goes, ask who it is for. Each layer
+Before choosing where a principle goes, work out who it is for. Each layer
 below is read by different people and agents, and a principle stored at
 the wrong one either binds people it shouldn't or misses agents that need
 it. The places named are examples: the destination depends on what your
-harness offers at each layer, so use what you know of your own harness,
-put the principle where every agent at that layer already reads, and add
-a line where agents start reading saying to decide from it before asking.
+harness offers at each layer, so use what you know of your own harness and
+put the principle where every agent at that layer already reads. Where
+those agents start reading, add a line saying to decide from the vision
+before asking.
 
-- **Everyone who works on this work:** principles every contributor should
+- **Everyone working on this work:** principles every contributor should
   follow, such as the product's vision and its conventions. These go in
   the work's shared place, such as a document in its repository pointed to
   from the agent instructions file.
@@ -54,8 +55,9 @@ a line where agents start reading saying to decide from it before asking.
   preferences that aren't contributor rules. These go in the owner's own
   context for the work, such as a project's instructions or memory, never
   in what is shared with every contributor.
-- **The owner, across all their work:** in their personal guidance, the
-  skills every harness they use loads, worded for any work. It is loaded
+- **The owner, across all their work:** principles that hold wherever they
+  work. These go in their personal guidance, the skills every harness they
+  use loads, worded for any work. It is loaded
   everywhere, so it holds only confirmed principles, and changes to it are
   shown to the owner as a diff before saving.
 
@@ -114,10 +116,10 @@ approves.
 
 A principle enters the vision only with the owner's confirmation. One
 inferred from their decisions but not yet confirmed may be kept in the
-owner's own context for the work, marked as inferred, so agents recommend from it but
-still ask; it moves to personal guidance only once confirmed and seen to
-hold across different work. When an agent asked something the vision
-should have answered, or decided against the owner's wish, find the
+owner's own context for the work, marked as inferred, so agents recommend
+from it but still ask; it moves to personal guidance only once confirmed
+and seen to hold across different work. When an agent asked something the
+vision should have answered, or decided against the owner's wish, find the
 missing or unclear principle, propose its wording, and update the vision
-once the owner confirms. Fewer questions and fewer overrides over time
-mean the vision is working.
+once the owner confirms. Fewer questions and fewer overruled decisions
+over time mean the vision is working.
