@@ -26,8 +26,11 @@ Before asking anything, sort it:
 - **A decision the principles leave open** is the user's. Ask it, and ask
   for the trade-off underneath rather than the mechanism: which value wins
   here and why, with the implementation choice as the concrete case.
-  Where a choice is small, easy to reverse and nothing points either way,
-  you may take the default yourself instead of asking.
+  A small choice you may take yourself, but only when you can say why it
+  is the right one: the work's conventions, a principle, or a pattern in
+  the user's earlier answers points to it. Being easy to reverse lowers
+  the cost of a wrong default; it doesn't make one right. When nothing
+  points either way, ask: that answer is how a new principle is found.
 
 No decision is taken silently. Every default you take, from a principle or
 from your own judgment, is listed with its reasoning, so the user can see
