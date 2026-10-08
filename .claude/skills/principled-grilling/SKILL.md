@@ -6,6 +6,10 @@ disable-model-invocation: true
 
 # Principled grilling
 
+The measure of a grilling is whether it draws out of the user what lets
+this agent and future ones reach decisions the user is satisfied with,
+more accurately over time. Every judgment below serves that.
+
 Interview the user until you share an understanding of the plan, and leave
 behind what lets the next agent need fewer questions. A single decision
 rarely shows why it was made; a series of them shows how the user thinks.
