@@ -38,22 +38,30 @@ read from the work itself. Typically:
 
 ## Where it lives
 
-Each principle is stored at the scope where it holds, in a place every
-agent working at that scope already reads, whichever harness it runs in:
+Before choosing where a principle goes, ask who it is for. Each layer
+below is read by different people and agents, and a principle stored at
+the wrong one either binds people it shouldn't or misses agents that need
+it. The places named are examples: the destination depends on what your
+harness offers at each layer, so use what you know of your own harness,
+put the principle where every agent at that layer already reads, and add
+a line where agents start reading saying to decide from it before asking.
 
-- **One piece of work:** with the work. Use the place it already keeps
-  durable context, such as a document in its repository pointed to from
-  the agent instructions file, a project's instructions or memory, or a
-  file in its folder. When it has none, propose one and confirm it with the
-  owner once. Add a line where agents start reading, saying to decide from
-  the vision before asking.
-- **All the owner's work:** in their personal guidance, the skills that
-  every harness they use loads, worded for any work. It is loaded
+- **Everyone who works on this work:** principles every contributor should
+  follow, such as the product's vision and its conventions. These go in
+  the work's shared place, such as a document in its repository pointed to
+  from the agent instructions file.
+- **The owner, for this work:** how they personally work on it and
+  preferences that aren't contributor rules. These go in the owner's own
+  context for the work, such as a project's instructions or memory, never
+  in what is shared with every contributor.
+- **The owner, across all their work:** in their personal guidance, the
+  skills every harness they use loads, worded for any work. It is loaded
   everywhere, so it holds only confirmed principles, and changes to it are
   shown to the owner as a diff before saving.
 
-When this session can't write to the right place, give the owner the text
-and where it goes.
+When the right place doesn't exist yet, propose one and confirm it with
+the owner once. When this session can't write to it, give the owner the
+text and where it goes.
 
 ## Before asking
 
@@ -104,8 +112,8 @@ approves.
 ## Keeping it true
 
 A principle enters the vision only with the owner's confirmation. One
-inferred from their decisions but not yet confirmed may be listed apart in
-the work's vision, marked as inferred, so agents recommend from it but
+inferred from their decisions but not yet confirmed may be kept in the
+owner's own context for the work, marked as inferred, so agents recommend from it but
 still ask; it moves to personal guidance only once confirmed and seen to
 hold across different work. When an agent asked something the vision
 should have answered, or decided against the owner's wish, find the

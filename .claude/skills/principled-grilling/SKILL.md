@@ -86,22 +86,27 @@ shared understanding; do not act on the plan before that. Then:
 - Summarise the decisions, each with its reason.
 - Propose the principle changes: new principles, sharpened boundaries,
   inferred ones to confirm.
-- Save what the user approves, each at the scope where it holds, in a place
-  every agent working at that scope already reads, whichever harness it
-  runs in:
-  - A principle for this piece of work goes with the work, where it already
-    keeps durable context: a document in its repository pointed to from
-    the agent instructions file, a project's instructions or memory, or a
-    file in its folder. When it has no such place, propose one.
-  - A principle for all the user's work goes in their personal guidance,
-    the skills every harness they use loads, worded for any work. It is
-    loaded everywhere, so it takes only confirmed principles.
-  - An inferred principle stays with the work, marked as inferred with the
-    decisions behind it, so later sessions recommend from it and confirm
-    it when it recurs.
+- Save what the user approves, after asking who each principle is for.
+  The places named below are examples: the destination depends on what
+  your harness offers at each layer, so use what you know of your own
+  harness and put the principle where every agent at that layer already
+  reads.
+  - **Everyone who works on this work:** principles every contributor
+    should follow, such as the product's vision and its conventions, go in
+    the work's shared place, such as a document in its repository.
+  - **The user, for this work:** how they personally work on it and
+    preferences that aren't contributor rules go in their own context for
+    the work, such as a project's instructions or memory, never in what is
+    shared with every contributor.
+  - **The user, across all their work:** in their personal guidance, the
+    skills every harness they use loads, worded for any work. It is loaded
+    everywhere, so it takes only confirmed principles.
+  - **Inferred, not yet confirmed:** in the user's own context for the
+    work, marked as inferred with the decisions behind it, so later
+    sessions recommend from it and confirm it when it recurs.
 
-  When this session can't write to the right place, give the user the text
-  and where it goes.
+  When the right place doesn't exist yet, propose one. When this session
+  can't write to it, give the user the text and where it goes.
 
 Fewer questions per session, and fewer overruled defaults, mean the principles
 are working.
