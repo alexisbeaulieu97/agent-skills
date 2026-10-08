@@ -16,12 +16,12 @@ next ones.
 
 Before asking anything, sort it:
 
-- **A fact** is yours to find: look it up in the code, the history or the
+- **A fact** is yours to find: look it up in the work, its history or the
   tools, with a sub-agent when it takes exploring. Only the questions that
   depend on it wait.
 - **A decision the user's principles already settle** is yours to make.
-  Their principles live in the project's vision document if it has one and
-  in their personal guidance across projects. Make the call, and list it as
+  Their principles live in the work's vision, if it has one, and in their
+  personal guidance across all their work. Make the call, and list it as
   a default with the principle it follows.
 - **A decision the principles leave open** is the user's. Ask it, and ask
   for the trade-off underneath rather than the mechanism: which value wins
@@ -85,13 +85,23 @@ shared understanding; do not act on the plan before that. Then:
 
 - Summarise the decisions, each with its reason.
 - Propose the principle changes: new principles, sharpened boundaries,
-  inferred ones to confirm. Write each where it stays true: one that holds
-  only for this project in its vision document, one that holds for all the
-  user's work in their personal guidance, worded for any project.
-  Inferred principles the user has not confirmed may be kept there marked
-  as inferred, with the decisions behind them, so later sessions can
-  recommend from them and confirm them when they recur.
-- Save what the user approves.
+  inferred ones to confirm.
+- Save what the user approves, each at the scope where it holds, in a place
+  every agent working at that scope already reads, whichever harness it
+  runs in:
+  - A principle for this piece of work goes with the work, where it already
+    keeps durable context: a document in its repository pointed to from
+    the agent instructions file, a project's instructions or memory, or a
+    file in its folder. When it has no such place, propose one.
+  - A principle for all the user's work goes in their personal guidance,
+    the skills every harness they use loads, worded for any work. It is
+    loaded everywhere, so it takes only confirmed principles.
+  - An inferred principle stays with the work, marked as inferred with the
+    decisions behind it, so later sessions recommend from it and confirm
+    it when it recurs.
+
+  When this session can't write to the right place, give the user the text
+  and where it goes.
 
 Fewer questions per session, and fewer overruled defaults, mean the principles
 are working.
