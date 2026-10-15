@@ -1,6 +1,6 @@
 ---
 name: principled-grilling
-description: Shape a plan or design with the user, asking what they want to achieve, restating it, then presenting a reviewed design for their reaction, while learning the reasons behind their decisions so later sessions ask less. Started only by the user, when they want a plan grilled or a design stress-tested.
+description: Shape a plan or design with the user, from their goal or from a plan they bring, asking what they want to achieve, restating it, then presenting a reviewed design piece by piece for their reaction, while learning the reasons behind their decisions so later sessions ask less. Started only by the user, when they want a plan grilled or a design stress-tested.
 disable-model-invocation: true
 ---
 
@@ -17,12 +17,20 @@ the code, and asking them about it wears them out without improving the
 design. A session that hands the user a long list of questions and
 defaults to clear has failed, even if every answer is good.
 
+The user's confirmed principles live in the work's vision, if it has
+one, and in their personal guidance across all their work. Read them
+before designing: the design's choices come from those principles, not
+from your own taste, and where they are silent the choice is listed so
+the user can see it.
+
 ## Understand the goal
 
 Ask questions one at a time, each building on the last answer, about what
 the user wants to achieve: the problem, who it serves, what better looks
 like, and what must not happen. Stay off code and architecture unless the
-goal itself turns on them. One question at a time keeps each one easy to
+goal itself turns on them. When the user brings a plan or a few ideas,
+those are the starting draft: ask about the goal behind them, not about
+their details. One question at a time keeps each one easy to
 answer and lets the next one follow from what the user actually said.
 
 Before each question, sort it:
@@ -53,8 +61,20 @@ work itself.
 
 Then have the design reviewed by someone other than its author, before the
 user sees it: an agent reviewing its own design misses what it got wrong.
-Fix what the review finds. What the author and reviewer still disagree on
-becomes an open question for the user.
+The reviewer checks:
+
+- every claim the design makes about the existing work, against the work
+  itself, and the path from today's work to the new design;
+- whether the request was forced into the current structure when a
+  reworked one would serve it better;
+- for a design others will build on or use, such as an interface or a
+  command, how it holds up from each seat: someone building on it,
+  someone using it, an agent driving it, whoever maintains it. Separate
+  reviewers each arguing one seat find what a single reader misses.
+
+The author fixes what the review finds, and the reviewer checks the fixes.
+Stop after two rounds: what the author and reviewer still disagree on
+becomes an open question for the user, with both positions.
 
 Every default you take is written in the design with its reason, so the
 user can skim and overrule any of it. Defaults are not walked through in
@@ -62,7 +82,10 @@ the conversation.
 
 ## Present and react
 
-Present the design in the form that shows what is at stake. Where people
+Present the design piece by piece: one part at a time, and the user
+reacts before the next part comes. The full design stays available for
+the user who wants it. Present each part in the form that shows what is at
+stake. Where people
 will use it, show worked examples: what they type or do, what they see,
 and what happens when it fails. Where other work will build on it, show
 the interface itself and something using it. These are illustrations; the
@@ -73,8 +96,9 @@ The user reacts in their own words. Their reactions are worth more than
 their picks between options: a condition they add, a part they reject, a
 case they bring up. Open questions come last, each with its context, the
 options and their consequences on their own lines, and a recommendation.
-A change that alters the design goes back through review before the user
-approves it.
+A reaction that changes the design's approach goes back through one
+round of review before the user approves; smaller changes the author
+folds in directly.
 
 ## Learning the reasons
 
@@ -106,7 +130,8 @@ directly.
 
 ## Ending
 
-The session is done when the user approves the design. Then:
+The session is done when the user approves the design; do not act on it
+before that. Then:
 
 - Summarise what their reactions changed, each with its reason.
 - Propose the principle changes (new principles, sharpened boundaries,
