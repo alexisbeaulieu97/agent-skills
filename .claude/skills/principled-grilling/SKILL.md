@@ -48,14 +48,14 @@ correction opened something new.
 
 ## Design without the user
 
-Design the solution as if building it from scratch: the design you would
-choose with nothing already built, not held to the work's current
-structure. When the current
-structure is what's wrong, say so and rework it; landing close to what
-exists is a fine outcome, as long as it was questioned. A design built
-from scratch tends to make wrong claims about the existing work, so it
-says how to get from today's work to the new design, checked against the
-work itself.
+Design as if building from scratch: the design you would be proud of with
+nothing already built, not held to the work's current structure. Ask this
+every time, whatever the size of the change; it is how a wrong design gets
+found. When the answer lands roughly where the work already is, say so in
+a line and design within it. When it departs, say what is wrong with the
+current structure, and show how to get from today's work to the new
+design, checked against the work itself: a design made from scratch tends
+to make wrong claims about what exists.
 
 Then have the design reviewed by someone other than its author, before the
 user sees it: an agent reviewing its own design misses what it got wrong.
