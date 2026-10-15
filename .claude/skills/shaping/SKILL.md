@@ -84,8 +84,8 @@ between you is one of these decisions, not the user's.
 ## Present and react
 
 Present the design piece by piece: one part at a time, and the user
-reacts before the next part comes. The full design stays available for
-the user who wants it. Present each part in the form that shows what is
+reacts before the next part comes. The whole design is written down
+before the first part is shown. Present each part in the form that shows what is
 at stake. Where people will use it, show worked examples: what they type
 or do, what they see, and what happens when it fails. Where other work
 will build on it, show the interface itself and something using it. These
