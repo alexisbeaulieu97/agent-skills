@@ -7,9 +7,8 @@ disable-model-invocation: true
 # Principled grilling
 
 A grilling works when it draws out of the user what only they know: what
-they want and whether a design gives it to them. It should also teach this
-agent and later ones to reach decisions the user is happy with, more often
-over time. Every judgment below serves that.
+they want and whether a design gives it to them. Every judgment below
+serves that.
 
 The user's time goes where only they can help. Facts about the work, and
 how to build it, are for agents to find and decide; the user may not know
@@ -17,11 +16,9 @@ the code, and asking them about it wears them out without improving the
 design. A session that hands the user a long list of questions and
 defaults to clear has failed, even if every answer is good.
 
-The user's confirmed principles live in the work's vision, if it has
-one, and in their personal guidance across all their work. Read them
-before designing: the design's choices come from those principles, not
-from your own taste, and where they are silent the choice is listed so
-the user can see it.
+Before designing, read what the work already settles: its direction, if it
+has one written down, and its rules and conventions, so that where the
+design departs from them, it does so knowingly and says why.
 
 ## Understand the goal
 
@@ -69,9 +66,10 @@ The reviewer checks:
 - whether the request was forced into the current structure when a
   reworked one would serve it better;
 - for a design that adds or changes something others build on or use,
-  such as an interface, a command or a format, how it holds up from each seat: someone building on it,
-  someone using it, an agent driving it, whoever maintains it. Separate
-  reviewers each arguing one seat find what a single reader misses.
+  such as an interface, a command or a format, how it holds up from each
+  seat: someone building on it, someone using it, an agent driving it,
+  whoever maintains it. Separate reviewers each arguing one seat find what
+  a single reader misses.
 
 The author fixes what the review finds, and the reviewer checks the fixes.
 Stop after two rounds: what the author and reviewer still disagree on
@@ -79,7 +77,8 @@ becomes an open question for the user, with both positions.
 
 Every default you take is written in the design with its reason, so the
 user can skim and overrule any of it. Defaults are not walked through in
-the conversation.
+the conversation. What the author and the reviewer settled between them is
+one of these defaults, not the user's decision.
 
 ## Present and react
 
@@ -87,82 +86,30 @@ Present the design piece by piece: one part at a time, and the user
 reacts before the next part comes. The full design stays available for
 the user who wants it. Present each part in the form that shows what is
 at stake. Where people will use it, show worked examples: what they type
-or do, what they see, and what happens when it fails. Where other work will build on it, show
-the interface itself and something using it. These are illustrations; the
-point is that the user judges the design by seeing it, not by reading
-about it.
+or do, what they see, and what happens when it fails. Where other work
+will build on it, show the interface itself and something using it. These
+are illustrations; the point is that the user judges the design by seeing
+it, not by reading about it.
 
 The user reacts in their own words. Their reactions are worth more than
 their picks between options: a condition they add, a part they reject, a
 case they bring up. Each open question comes with the part it belongs to,
 after the user has seen that part: its context, the options and their
-consequences on their own lines, and a recommendation.
-A reaction that changes the design's approach goes back through one
-round of review before the user approves; smaller changes the author
-folds in directly.
+consequences on their own lines, and a recommendation. A reaction that
+changes the design's approach goes back through one round of review
+before the user approves; smaller changes the author folds in directly.
 
-## Learning the reasons
-
-The reason behind a reaction is worth more than the reaction, but asking
-"why?" every time wears the user out. When a reaction departs from the
-design, or no known principle explains it, state the reason you infer and
-ask the user to confirm it in a word: "I read this as: never store a value
-you can't trace back to its source, even at the cost of a failed import.
-Right?" A wrong guess is still useful; the correction is usually the
-principle.
-
-Across reactions, look for the thread they share. When several point the
-same way, propose the principle they suggest, with the decisions it comes
-from and the boundary case where you are unsure it holds.
-
-How far an agent may act on a principle depends on how it is known:
-
-- **Confirmed by the user, in their own words:** the agent decides and
-  writes the default in the design.
-- **Inferred, not yet confirmed:** the agent recommends from it and says
-  so. An answer someone else gave on the user's behalf, such as another
-  agent deciding for them, counts as inferred, not as their precedent.
-- **Unknown:** the agent asks, or leaves it as an open question in the
-  design.
-
-Nothing becomes a principle without the user's confirmation. Approving a
-design does not confirm the reasons you inferred for it; ask about them
-directly.
+The reason behind a reaction settles the parts still to come, so it is
+worth more than the reaction; but asking "why?" every time wears the user
+out. When a reaction departs from the design and nothing you know explains
+it, state the reason you infer and ask the user to confirm it in a word,
+for illustration: "I read this as: never store a value you can't trace
+back to its source, even at the cost of a failed import. Right?" A wrong
+guess is still useful; the correction is usually the reason. Across
+reactions, look for the thread they share; it settles parts the user has
+not seen yet.
 
 ## Ending
 
 The session is done when the user approves the design; do not act on it
-before that. Then:
-
-- Summarise what their reactions changed, each with its reason.
-- Propose the principle changes (new principles, sharpened boundaries,
-  inferred ones to confirm), each with who it is for and where it would
-  go, so the user's approval covers the destination too.
-- Save what the user approves where they approved it.
-
-## Where a principle goes
-
-To choose a principle's destination, work out who it is for. The places
-named below are examples: the destination depends on what your harness
-offers at each layer, so use what you know of your own harness and put the
-principle where every agent at that layer already reads.
-
-- **Everyone working on this work:** principles every contributor
-  should follow, such as the product's vision and its conventions, go in
-  the work's shared place, such as a document in its repository.
-- **The user, for this work:** how they personally work on it and
-  preferences that aren't contributor rules go in their own context for
-  the work, such as a project's instructions or memory, never in what is
-  shared with every contributor.
-- **The user, across all their work:** in their personal guidance, the
-  skills every harness they use loads, worded for any work. It is loaded
-  everywhere, so it takes only confirmed principles.
-- **Inferred, not yet confirmed:** in the user's own context for the
-  work, marked as inferred with the decisions behind it, so later
-  sessions recommend from it and confirm it when it recurs.
-
-When the right place doesn't exist yet, propose one. When this session
-can't write to it, give the user the text and where it goes.
-
-Fewer questions, shorter sessions and fewer rejected designs mean the
-principles are working.
+before that. Then summarise the decisions, each with its reason.
