@@ -1,111 +1,114 @@
 ---
 name: principled-grilling
-description: Interview the user relentlessly about a plan or design while learning the reasons behind their decisions, so later sessions decide what their principles already settle and ask only what is new. Started only by the user, when they want a plan grilled or a design stress-tested.
+description: Shape a plan or design with the user, asking what they want to achieve, restating it, then presenting a reviewed design for their reaction, while learning the reasons behind their decisions so later sessions ask less. Started only by the user, when they want a plan grilled or a design stress-tested.
 disable-model-invocation: true
 ---
 
 # Principled grilling
 
-The measure of a grilling is whether it draws out of the user what lets
-this agent and future ones reach decisions the user is satisfied with,
-more accurately over time. Every judgment below serves that.
+A grilling works when it draws out of the user what only they know: what
+they want and whether a design gives it to them. It should also teach this
+agent and later ones to reach decisions the user is happy with, more often
+over time. Every judgment below serves that.
 
-Interview the user until you share an understanding of the plan. A single
-decision rarely shows why it was made; a series of them shows how the user thinks.
-The decisions settle this plan; the reasons, once confirmed, settle the
-next ones.
+The user's time goes where only they can help. Facts about the work, and
+how to build it, are for agents to find and decide; the user may not know
+the code, and asking them about it wears them out without improving the
+design. A session that hands the user a long list of questions and
+defaults to clear has failed, even if every answer is good.
 
-## Three kinds of question
+## Understand the goal
 
-Before asking anything, sort it:
+Ask questions one at a time, each building on the last answer, about what
+the user wants to achieve: the problem, who it serves, what better looks
+like, and what must not happen. Stay off code and architecture unless the
+goal itself turns on them. One question at a time keeps each one easy to
+answer and lets the next one follow from what the user actually said.
+
+Before each question, sort it:
 
 - **A fact** is yours to find: look it up in the work, its history or the
-  tools, with a sub-agent when it takes exploring. Only the questions that
-  depend on it wait.
-- **A decision the user's confirmed principles settle** is yours to make.
-  Their principles live in the work's vision, if it has one, and in their
-  personal guidance across all their work. Make the call, and list it as
-  a default with the principle it follows.
-- **A decision the principles leave open** is the user's. Ask it, and ask
-  for the trade-off underneath rather than the mechanism: which value wins
-  here and why, with the implementation choice as the concrete case.
-  You may take a small choice yourself only when you can say why it is
-  right: the work's conventions, a principle, or a pattern in the user's
-  earlier answers points to it. Being easy to reverse lowers
-  the cost of a wrong default; it doesn't make one right. When nothing
-  points either way, ask: that answer is how a new principle is found.
-
-No decision is taken silently. Every default you take, from a principle or
-from your own judgment, is listed with its reasoning, so the user can see
-it and overrule it in one word. An overruled default is a lesson: when it
-followed a principle, the principle is missing a boundary; when it followed
-your judgment, the user's reason may be a principle. Find out which with
-the user.
-
-## A round
-
-The frontier is every decision whose prerequisites are settled. Ask the
-whole frontier in one round, then wait for the answers; a question that
-depends on another one still open goes to a later round.
-
-The user's format for a round:
-
-- Open with a few lines of context for the round: where the plan stands,
-  what the previous answers settled, and what this round decides.
-- Then the defaults you took, one line each with its reasoning: the
-  principle it follows, or why you judged it so.
-- Then the questions, numbered, each starting on its own line with a short
-  title, followed by a few lines of context: what is at stake and what you
-  found that bears on it.
-- Under each question, each option on its own line with its consequence,
-  never options run together in a paragraph.
-- Then the recommendation on its own line, with its reason, worded so
+  tools, with a sub-agent when it takes exploring.
+- **How to build it** is yours to decide later, in the design.
+- **What the user wants** is the user's. Ask it with a line of context, and
+  when options help, give the best few with a recommendation worded so
   "yes" accepts it.
 
-For each decision, weigh as many options as the decision reasonably has,
-including ones the user didn't mention, and present only the best few,
-with one recommendation. The user's time goes to choosing between good
-options, not to filtering weak ones.
+## Restate
 
-## Flagging a better design
+When you can say what the user wants, restate it in your own words: their
+goals, the problem they are solving and what success looks like. The user
+corrects it. The restate ends the questions; ask more only where the
+correction opened something new.
 
-When the answers show the request fits the current design poorly, raise it
-as its own question instead of fitting it in: what breaks down, the
-alternative design, and the cost of each. Bending the request to the
-design, or the design to the request, without saying so hides the decision
-that matters most.
+## Design without the user
+
+Design the solution as if building it from scratch: the design you would
+be proud of, not held to the work's current structure. When the current
+structure is what's wrong, say so and rework it; landing close to what
+exists is a fine outcome, as long as it was questioned. A design built
+from scratch tends to make wrong claims about the existing work, so it
+says how to get from today's work to the new design, checked against the
+work itself.
+
+Then have the design reviewed by someone other than its author, before the
+user sees it: an agent reviewing its own design misses what it got wrong.
+Fix what the review finds. What the author and reviewer still disagree on
+becomes an open question for the user.
+
+Every default you take is written in the design with its reason, so the
+user can skim and overrule any of it. Defaults are not walked through in
+the conversation.
+
+## Present and react
+
+Present the design in the form that shows what is at stake. Where people
+will use it, show worked examples: what they type or do, what they see,
+and what happens when it fails. Where other work will build on it, show
+the interface itself and something using it. These are illustrations; the
+point is that the user judges the design by seeing it, not by reading
+about it.
+
+The user reacts in their own words. Their reactions are worth more than
+their picks between options: a condition they add, a part they reject, a
+case they bring up. Open questions come last, each with its context, the
+options and their consequences on their own lines, and a recommendation.
+A change that alters the design goes back through review before the user
+approves it.
 
 ## Learning the reasons
 
-The reason behind an answer is worth more than the answer, but asking
-"why?" every time wears the user out. When an answer departs from your
-recommendation, or no known principle explains it, state the reason you
-infer and ask the user to confirm it in a word: "I read this as: never
-store a value you can't trace back to its source, even at the cost of a
-failed import. Right?" A wrong guess is still useful; the correction is
-usually the principle.
+The reason behind a reaction is worth more than the reaction, but asking
+"why?" every time wears the user out. When a reaction departs from the
+design, or no known principle explains it, state the reason you infer and
+ask the user to confirm it in a word: "I read this as: never store a value
+you can't trace back to its source, even at the cost of a failed import.
+Right?" A wrong guess is still useful; the correction is usually the
+principle.
 
-Across answers, look for the thread they share. When several decisions
-point the same way, propose the principle they suggest, with the decisions
-it comes from and the boundary case where you are unsure it holds.
+Across reactions, look for the thread they share. When several point the
+same way, propose the principle they suggest, with the decisions it comes
+from and the boundary case where you are unsure it holds.
 
 How far an agent may act on a principle depends on how it is known:
 
-- **Confirmed by the user:** the agent decides and lists the default.
-- **Inferred, not yet confirmed:** the agent recommends from it and asks,
-  except on a small choice, which it may take as a listed default.
-- **Unknown:** the agent asks the open question.
+- **Confirmed by the user, in their own words:** the agent decides and
+  writes the default in the design.
+- **Inferred, not yet confirmed:** the agent recommends from it and says
+  so. An answer someone else gave on the user's behalf, such as another
+  agent deciding for them, counts as inferred, not as their precedent.
+- **Unknown:** the agent asks, or leaves it as an open question in the
+  design.
 
 Nothing becomes a principle without the user's confirmation. Approving a
-plan does not confirm the reasons you inferred for it; ask about them
+design does not confirm the reasons you inferred for it; ask about them
 directly.
 
 ## Ending
 
-The session is done when the frontier is empty and the user confirms the
-shared understanding; do not act on the plan before that. Then:
+The session is done when the user approves the design. Then:
 
-- Summarise the decisions, each with its reason.
+- Summarise what their reactions changed, each with its reason.
 - Propose the principle changes (new principles, sharpened boundaries,
   inferred ones to confirm), each with who it is for and where it would
   go, so the user's approval covers the destination too.
@@ -135,5 +138,5 @@ principle where every agent at that layer already reads.
 When the right place doesn't exist yet, propose one. When this session
 can't write to it, give the user the text and where it goes.
 
-Fewer questions per session and fewer overruled defaults mean the
+Fewer questions, shorter sessions and fewer rejected designs mean the
 principles are working.
