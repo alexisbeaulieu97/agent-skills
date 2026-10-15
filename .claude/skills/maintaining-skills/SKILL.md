@@ -55,12 +55,12 @@ make well on its own.
   description serves every route to it, a name only one.
 - An agent opens a reference only when its pointer says when it is worth
   reading. So each pointer says when.
-- An agent exists only in the session that reads the skill: it remembers
-  no earlier run and will see no later one. So a skill speaks of now, what
-  to do in this session, checked by what this session can see. A signal
-  that shows only across sessions, such as fewer questions over time, is
-  for the skill's owner, and lives in the commit that made the change, not
-  in the skill.
+- An agent exists only in the session that reads the skill: it cannot
+  count on remembering an earlier run and will see no later one. So a
+  skill speaks of now, what to do in this session, checked by what this
+  session can see. A signal that shows only across sessions, such as fewer
+  questions over time, is for the skill's owner and stays with them, such
+  as in the commit that made the change, not in the skill.
 - An agent treats a choice the skill assigns to the user as a question to
   ask. So a skill names only the decisions the task cannot proceed
   without; what the user might do afterwards, on their own, it leaves
@@ -87,6 +87,7 @@ make well on its own.
 A skill improves through use: everyday work brings the cases it never
 names. When an agent working with it does something its owner would not,
 find out why before changing anything, change the one idea responsible,
-and let the owner judge by the next uses whether it helped. Because each idea is a
-unit, the effect of a change can be traced to it; a change spread across
-several ideas cannot be. More text fixes only guidance that was missing.
+and let the owner judge by the next uses whether it helped. Because each
+idea is a unit, the effect of a change can be traced to it; a change
+spread across several ideas cannot be. More text fixes only guidance that
+was missing.
