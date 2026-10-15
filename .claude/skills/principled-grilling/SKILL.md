@@ -23,12 +23,12 @@ design departs from them, it does so knowingly and says why.
 ## Understand the goal
 
 Ask questions one at a time, each building on the last answer, about what
-the user wants to achieve: the problem, who it serves, what better looks
-like, and what must not happen. Stay off code and architecture unless the
-goal itself turns on them. When the user brings a plan or a few ideas,
-those are the starting draft: ask about the goal behind them, not about
-their details. One question at a time keeps each one easy to
-answer and lets the next one follow from what the user actually said.
+this change should achieve: the problem it solves, what done looks like,
+and what must not break. Stay off code and architecture unless the goal
+itself turns on them. When the user brings a plan or a few ideas, those
+are the starting draft: ask about the goal behind them, not about their
+details. One question at a time keeps each one easy to answer and lets the
+next one follow from what the user actually said.
 
 Before each question, sort it:
 
@@ -42,7 +42,7 @@ Before each question, sort it:
 ## Restate
 
 When you can say what the user wants, restate it in your own words: their
-goals, the problem they are solving and what success looks like. The user
+goals, the problem they are solving and what done looks like. The user
 corrects it. The restate ends the questions; ask more only where the
 correction opened something new.
 
