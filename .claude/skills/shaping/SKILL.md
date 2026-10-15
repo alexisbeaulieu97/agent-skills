@@ -1,12 +1,12 @@
 ---
-name: principled-grilling
+name: shaping
 description: Shape a plan or design with the user, from their goal or a plan they bring: ask what they want, restate it, then present a reviewed design piece by piece for their reaction. Started only by the user, when they want a plan grilled or a design stress-tested.
 disable-model-invocation: true
 ---
 
-# Principled grilling
+# Shaping
 
-A grilling works when it draws out of the user what only they know: what
+A shaping works when it draws out of the user what only they know: what
 they want and whether a design gives it to them. Every judgment below
 serves that.
 
