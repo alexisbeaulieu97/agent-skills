@@ -75,10 +75,10 @@ The author fixes what the review finds, and the reviewer checks the fixes.
 Stop after two rounds: what the author and reviewer still disagree on
 becomes an open question for the user, with both positions.
 
-Every default you take is written in the design with its reason, so the
-user can skim and overrule any of it. Defaults are not walked through in
-the conversation. What the author and the reviewer settled between them is
-one of these defaults, not the user's decision.
+Every decision you make that the user did not is written in the design
+with its reason, so the user can skim and overrule any of it. These are
+not walked through in the conversation. What the author and the reviewer
+settled between them is one of these decisions, not the user's.
 
 ## Present and react
 
