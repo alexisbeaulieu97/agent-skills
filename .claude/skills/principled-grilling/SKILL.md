@@ -52,7 +52,8 @@ correction opened something new.
 ## Design without the user
 
 Design the solution as if building it from scratch: the design you would
-be proud of, not held to the work's current structure. When the current
+choose with nothing already built, not held to the work's current
+structure. When the current
 structure is what's wrong, say so and rework it; landing close to what
 exists is a fine outcome, as long as it was questioned. A design built
 from scratch tends to make wrong claims about the existing work, so it
@@ -67,8 +68,8 @@ The reviewer checks:
   itself, and the path from today's work to the new design;
 - whether the request was forced into the current structure when a
   reworked one would serve it better;
-- for a design others will build on or use, such as an interface or a
-  command, how it holds up from each seat: someone building on it,
+- for a design that adds or changes something others build on or use,
+  such as an interface, a command or a format, how it holds up from each seat: someone building on it,
   someone using it, an agent driving it, whoever maintains it. Separate
   reviewers each arguing one seat find what a single reader misses.
 
@@ -84,18 +85,18 @@ the conversation.
 
 Present the design piece by piece: one part at a time, and the user
 reacts before the next part comes. The full design stays available for
-the user who wants it. Present each part in the form that shows what is at
-stake. Where people
-will use it, show worked examples: what they type or do, what they see,
-and what happens when it fails. Where other work will build on it, show
+the user who wants it. Present each part in the form that shows what is
+at stake. Where people will use it, show worked examples: what they type
+or do, what they see, and what happens when it fails. Where other work will build on it, show
 the interface itself and something using it. These are illustrations; the
 point is that the user judges the design by seeing it, not by reading
 about it.
 
 The user reacts in their own words. Their reactions are worth more than
 their picks between options: a condition they add, a part they reject, a
-case they bring up. Open questions come last, each with its context, the
-options and their consequences on their own lines, and a recommendation.
+case they bring up. Each open question comes with the part it belongs to,
+after the user has seen that part: its context, the options and their
+consequences on their own lines, and a recommendation.
 A reaction that changes the design's approach goes back through one
 round of review before the user approves; smaller changes the author
 folds in directly.
