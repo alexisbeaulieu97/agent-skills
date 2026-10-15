@@ -7,7 +7,7 @@ My personal agent skills, one folder each under [.claude/skills](.claude/skills)
 | `apprentice` | A teaching session: I show how I do something, the agent records it in the skills |
 | `maintaining-skills` | How to write and revise agent skills so they improve an agent's judgment |
 | `personal-ui-preferences` | My UI and UX defaults, for designing, building or reviewing an interface |
-| `principled-grilling` | Grills a plan while learning the reasons behind my decisions, so later sessions ask less |
+| `shaping` | Shapes a plan: asks what I want, restates it, then shows me a reviewed design to react to |
 | `vision` | An interview about what a piece of work should become, recorded so agents make my calls without asking |
 | `writing-documentation` | Where each fact lives in a project's documents and how much detail it gets; glossaries as a reference |
 
