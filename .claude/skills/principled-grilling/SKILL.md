@@ -1,6 +1,6 @@
 ---
 name: principled-grilling
-description: Shape a plan or design with the user, from their goal or from a plan they bring, asking what they want to achieve, restating it, then presenting a reviewed design piece by piece for their reaction, while learning the reasons behind their decisions so later sessions ask less. Started only by the user, when they want a plan grilled or a design stress-tested.
+description: Shape a plan or design with the user, from their goal or a plan they bring: ask what they want, restate it, then present a reviewed design piece by piece for their reaction. Started only by the user, when they want a plan grilled or a design stress-tested.
 disable-model-invocation: true
 ---
 
