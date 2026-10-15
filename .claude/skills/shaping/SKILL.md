@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # Shaping
 
-A shaping works when it draws out of the user what only they know: what
+A shaping session works when it draws out of the user what only they know: what
 they want and whether a design gives it to them. Every judgment below
 serves that.
 
@@ -77,8 +77,8 @@ becomes an open question for the user, with both positions.
 
 Every decision you make that the user did not is written in the design
 with its reason, so the user can skim and overrule any of it. These are
-not walked through in the conversation. What the author and the reviewer
-settled between them is one of these decisions, not the user's.
+not walked through in the conversation. What you and the reviewer settled
+between you is one of these decisions, not the user's.
 
 ## Present and react
 
