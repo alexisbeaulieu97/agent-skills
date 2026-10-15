@@ -59,7 +59,8 @@ to make wrong claims about what exists.
 
 Then have the design reviewed by someone other than its author, before the
 user sees it: an agent reviewing its own design misses what it got wrong.
-The reviewer checks:
+The reviewer looks for what the author is likely to have got wrong, and
+checks at least:
 
 - every claim the design makes about the existing work, against the work
   itself, and the path from today's work to the new design;
