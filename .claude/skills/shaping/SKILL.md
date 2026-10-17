@@ -1,116 +1,61 @@
 ---
 name: shaping
-description: Shape a plan or design with the user, from their goal or a plan they bring; ask what they want, restate it, then present a reviewed design piece by piece for their reaction. Started only by the user, when they want a plan or design shaped.
+description: Shape a plan, design or architecture with the user from their problems, ideas, goals or plans they bring.
 disable-model-invocation: true
 ---
 
 # Shaping
 
-A shaping session works when it draws out of the user what only they know: what
-they want and whether a design gives it to them. Every judgment below
-serves that.
+Help the user find a clear path to achieve what they want.
 
-The user's time goes where only they can help. Facts about the work, and
-how to build it, are for agents to find and decide; the user may not know
-the code, and asking them about it wears them out without improving the
-design. A session that hands the user a long list of questions and
-defaults to clear has failed, even if every answer is good.
+Draw out what only the user knows: their goals, preferences, constraints and judgment. Use your reasoning and available tools to investigate facts, explore possibilities and work out how to achieve those goals.
 
-Before designing, read what the work already settles: its direction, if it
-has one written down, and its rules and conventions, so that where the
-design departs from them, it does so knowingly and says why.
+The aim is to find an approach that makes sense to the user and is robust enough to act on, not to produce a comprehensive plan as quickly as possible.
 
-## Understand the goal
+Design is messy. The user may jump between directions, revisit decisions and leave threads unfinished. Keep track of what is settled, open and dependent on something else, so nothing gets lost and the user doesn't have to hold it all in their head.
 
-Ask questions one at a time, each building on the last answer, about what
-this change should achieve: the problem it solves, what done looks like,
-and what must not break. Stay off code and architecture unless the goal
-itself turns on them. When the user brings a plan or a few ideas, those
-are the starting draft: ask about the goal behind them, not about their
-details. One question at a time keeps each one easy to answer and lets the
-next one follow from what the user actually said.
+## 1. Understand the goal
 
-Before each question, sort it:
+Ask questions one at a time, each building on the last. Focus on what the user wants to achieve, why it matters and what success looks like. Let them express their thoughts freely, even when incomplete or disorganized. Don't jump into solutions before understanding the problem.
 
-- **A fact** is yours to find: look it up in the work, its history or the
-  tools, with a sub-agent when it takes exploring.
-- **How to build it** is yours to decide later, in the design.
-- **What the user wants** is the user's. Ask it with a line of context, and
-  when options help, give the best few with a recommendation worded so
-  "yes" accepts it.
+Investigate facts and resolve ambiguities yourself when possible. Ask the user only about things that require their knowledge or judgment.
 
-## Restate
+## 2. Restate
 
-When you can say what the user wants, restate it in your own words: their
-goals, the problem they are solving and what done looks like. The user
-corrects it. The restate ends the questions; ask more only where the
-correction opened something new.
+Restate the goal in your own words, including what success looks like and any important constraints. The user corrects the restatement. Unless the correction opens something new, this ends the questioning stage.
 
-## Design without the user
+## 3. Explore with the user
 
-Design as if building from scratch: the design you would be proud of with
-nothing already built, not held to the work's current structure. Ask this
-every time, whatever the size of the change; it is how a wrong design gets
-found. When the answer lands roughly where the work already is, say so in
-a line and design within it. When it departs, say what is wrong with the
-current structure, and show how to get from today's work to the new
-design, checked against the work itself: a design made from scratch tends
-to make wrong claims about what exists.
+Explore possible approaches together, starting with the foundations and building toward a clear direction. Introduce ideas progressively, examining their implications before moving on. Don't jump straight to a complete solution or overwhelm the user with possibilities.
 
-Then have the design reviewed by someone other than its author, before the
-user sees it: an agent reviewing its own design misses what it got wrong.
-The reviewer looks for what the author is likely to have got wrong, and
-checks at least:
+Keep track of settled decisions, open questions and their dependencies. Don't show the map; use it. An idea the user floats is a possibility, not a decision. When something depends on an open question, resolve it first if it could materially change the direction; otherwise, proceed provisionally.
 
-- every claim the design makes about the existing work, against the work
-  itself, and the path from today's work to the new design;
-- whether the request was forced into the current structure when a
-  reworked one would serve it better;
-- for a design that adds or changes something others build on or use,
-  such as an interface, a command or a format, how it holds up from each
-  seat: someone building on it, someone using it, an agent driving it,
-  whoever maintains it. Separate reviewers each arguing one seat find what
-  a single reader misses.
+When something new affects a past decision or open question, explain briefly what it affects and why. Let the user decide whether to revisit it.
 
-The author fixes what the review finds, and the reviewer checks the fixes.
-Stop after two rounds: what the author and reviewer still disagree on
-becomes an open question for the user, with both positions.
+Challenge questionable assumptions plainly, with your reasoning. For preferences and trade-offs, respect the user's decision once they've considered the objection. For factual claims, investigate the evidence and make uncertainty clear.
 
-Every decision you make that the user did not is written in the design
-with its reason, so the user can skim and overrule any of it. These are
-not walked through in the conversation. What you and the reviewer settled
-between you is one of these decisions, not the user's.
+## 4. Develop and challenge the approach
 
-## Present and react
+Work independently to turn the agreed direction into a viable path forward. Investigate relevant facts, test assumptions, resolve dependencies and handle details that don't require the user's judgment. Use available tools and independent review when they can materially improve the result.
 
-Present the design piece by piece: one part at a time, and the user
-reacts before the next part comes. The whole design is written down
-before the first part is shown. Present each part in the form that shows what is
-at stake. Where people will use it, show worked examples: what they type
-or do, what they see, and what happens when it fails. Where other work
-will build on it, show the interface itself and something using it. These
-are illustrations; the point is that the user judges the design by seeing
-it, not by reading about it.
+Look for gaps, contradictions, overlooked constraints, unnecessary complexity and plausible ways the approach could fail. When new information undermines an earlier decision, revisit it rather than patching the plan around it.
 
-The user reacts in their own words. Their reactions are worth more than
-their picks between options: a condition they add, a part they reject, a
-case they bring up. Each open question comes with the part it belongs to,
-after the user has seen that part: its context, the options and their
-consequences on their own lines, and a recommendation. A reaction that
-changes the design's approach goes back through one round of review
-before the user approves; smaller changes the author folds in directly.
+Distinguish facts from assumptions, recommendations and unresolved questions. Make consequential decisions made on the user's behalf visible, with their reasons.
 
-The reason behind a reaction settles the parts still to come, so it is
-worth more than the reaction; but asking "why?" every time wears the user
-out. When a reaction departs from the design and nothing you know explains
-it, state the reason you infer and ask the user to confirm it in a word,
-for illustration: "I read this as: never store a value you can't trace
-back to its source, even at the cost of a failed import. Right?" A wrong
-guess is still useful; the correction is usually the reason. Across
-reactions, look for the thread they share; it settles parts the user has
-not seen yet.
+Develop the approach incrementally. Don't elaborate dependent parts before their foundations are established and the user has had a chance to react.
 
-## Ending
+## 5. Present and react
 
-The session is done when the user approves the design; do not act on it
-before that. Then summarise the decisions, each with its reason.
+Present the approach in manageable pieces, using whatever best helps the user evaluate it: concrete examples, comparisons, demonstrations or visual representations.
+
+Let the user react before moving on. Treat objections, conditions and counterexamples as opportunities to improve the approach, not as things to defend against.
+
+Incorporate feedback into the current version instead of accumulating corrections and obsolete proposals. When feedback changes a fundamental assumption, revisit the affected parts and check that the approach still holds together.
+
+Bring the user in when their judgment is needed; resolve the details you can handle yourself.
+
+## 6. Ending
+
+The session ends when the user approves a clear path forward. Summarize the approach, important decisions and their reasons, along with any remaining uncertainties.
+
+Do not act on the plan before approval.
