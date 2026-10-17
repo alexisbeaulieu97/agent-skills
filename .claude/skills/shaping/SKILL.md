@@ -1,6 +1,6 @@
 ---
 name: shaping
-description: Shape a plan or design with the user, from their goal or a plan they bring: ask what they want, restate it, then present a reviewed design piece by piece for their reaction. Started only by the user, when they want a plan or design shaped.
+description: Shape a plan or design with the user, from their goal or a plan they bring; ask what they want, restate it, then present a reviewed design piece by piece for their reaction. Started only by the user, when they want a plan or design shaped.
 disable-model-invocation: true
 ---
 
