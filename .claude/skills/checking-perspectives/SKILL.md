@@ -33,7 +33,7 @@ Use only what that party would have in front of them, not what you know as
 the author. Where you can, hand the task to someone without that knowledge,
 such as a fresh agent given only what the party would get. Where the real
 parties can try it themselves, their use beats any stand-in; asking them
-reaches people, so it needs the user's go-ahead.
+reaches people, so it falls under whatever rules govern doing that.
 
 Note what each party must do that serves them nothing, such as steps that
 always come together, choices with only one sensible answer, things to know
