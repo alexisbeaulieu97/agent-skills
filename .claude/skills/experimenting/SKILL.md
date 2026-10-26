@@ -53,7 +53,9 @@ obvious-seeming claims are the ones nobody checks.
 - **State, before trying, which result favours which option**, including what
   holds when no threshold is met: "the second only if it is at least twice as
   fast, otherwise the simpler first". A criterion fixed first cannot drift to
-  fit the result.
+  fit the result. Anchor a relative threshold to the current way, which stays
+  put, not to the best option, which changes as options join or drop out and
+  can flip the result with it.
 - **Test where the options differ, and only that.** Build the smallest thing
   that exercises the point of difference, rather than carrying out each option
   in full.
@@ -102,10 +104,7 @@ finding, and any choice made without it is unverified.
 
 A result that shows why an option wins or loses can point to an option nobody
 tried. It can join the comparison under the same criterion, not one fitted to
-it, counted in the result as having joined after the first results. A
-criterion set relative to the other options, such as "no more than twice the
-smallest", moves when an option joins; where that changes the outcome, it is
-part of the result.
+it, counted in the result as having joined after the first results.
 
 A result can also reveal a criterion nobody set beforehand. Read the result
 both with and without it, and count it in the result as having emerged: if the
