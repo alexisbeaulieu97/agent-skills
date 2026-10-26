@@ -99,10 +99,10 @@ is easiest to undo. Some cases:
 
 - **Each option wins on a different point.** Lay out the trade-off; pick by
   what matters most for this choice, and say that is how you chose.
-- **Every option fails.** Report that rather than taking the least bad one;
+- **Every option fails.** Say so rather than taking the least bad one;
   the choice itself may be the wrong question.
-- **It goes against something the user decided.** Show them the result and let
-  them decide; do not switch on your own.
+- **It goes against something the user decided.** Keep their decision, put
+  the result where they will see it, and do not switch on your own.
 - **It cannot be tried here**, for lack of access, people or a setting. Say
   what would settle it, choose provisionally the option that is easier to
   undo, and say the choice is unverified.
@@ -113,13 +113,14 @@ Some choices turn on taste rather than on anything observable. Follow the
 user's recorded preferences or the conventions of the work when they settle
 it. When neither does and the choice would be costly to change later, make
 each option just far enough to be seen, alike in everything but the point in
-question, and let the user react to them instead of to a description.
-Meanwhile, carry on with the option that is easier to undo.
+question, for the user to react to instead of a description. Meanwhile,
+carry on with the option that is easier to undo.
 
-## Report the evidence
+## Keep the evidence with the decision
 
-Say what was compared, the criterion set beforehand, the conditions, what came
-out in numbers or observations, what the experiment does not show, and the
-choice it led to. Include what it takes to repeat it, so the result can be
-checked rather than trusted. "B is better" alone cannot be told apart from a
-guess.
+Wherever the decision is shown or recorded, give what was compared, the
+criterion set beforehand, the conditions, what came out in numbers or
+observations, what the experiment does not show, and the choice it led to.
+Include what it takes to repeat it, so the result can be checked rather than
+trusted, by someone who may read it long after and did not see it made. "B is
+better" alone cannot be told apart from a guess.

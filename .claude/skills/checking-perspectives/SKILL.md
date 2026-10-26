@@ -40,8 +40,8 @@ always come together, choices with only one sensible answer, things to know
 in advance, repetition or waiting on someone else. Note separately what they
 need and cannot get. Change the design for both, then try the change again
 from the side it was meant to help and from the others, in case it moved the
-friction onto them. Where a change touches something the user decided, show
-what the party ran into and let the user decide.
+friction onto them. Where a change touches something the user decided, keep
+their decision and put what the party ran into where they will see it.
 
 Friction met while building on a design for real is the same finding: take it
 back to the design rather than working around it.
@@ -56,8 +56,8 @@ they do: a quick pass for something one person uses once, the whole span of
 use for every party for something many will build on. What you make to try
 the design is a throwaway, kept apart from the work.
 
-## Report it
+## Keep the evidence with the design
 
-Say who the parties were, what each one did, what they ran into and what
-changed in the design as a result, so the user can see the design was tried
-and not only reasoned about.
+Wherever the design is shown or recorded, say who the parties were, what each
+one did, what they ran into and what changed as a result, so whoever reads it,
+now or later, can see the design was tried and not only reasoned about.
