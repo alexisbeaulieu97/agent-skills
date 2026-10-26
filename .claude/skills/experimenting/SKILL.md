@@ -71,6 +71,10 @@ obvious-seeming claims are the ones nobody checks.
   conditions, each done the way someone who favoured it would do it, and
   settled before trying. Afterwards, change an option only to fix a mistake,
   and count that in the result.
+- **Have the criterion and the setup checked before running**, by someone
+  who did not design them, such as a fresh agent. A bias in the setup, such
+  as inputs arranged one way for one option and another way for the rest,
+  flatters an option, and checking only the result will not show it.
 - **Let numbers speak where there are numbers.** Measure rather than judge by
   feel. Repeat where you can and compare the difference with how much repeated
   tries vary: a difference inside that variation is no difference. Where you
