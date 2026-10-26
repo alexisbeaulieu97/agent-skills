@@ -17,6 +17,10 @@ make well on its own.
   covers and the requests it serves, in the language users are likely to
   use, and claims only its own ground; it grows more insistent only after
   the skill was seen not to load.
+- An agent loads a skill for one need, by a description written for it.
+  So each skill does one job: one kind of decision at one kind of moment.
+  An idea that serves a different decision gets its own skill, even when it
+  shares a method with an existing one; a shared method is not a shared job.
 - Anything a skill copies from elsewhere goes stale when the source changes,
   and an agent cannot tell a stale copy from a current one. So a skill
   states only what it is the source of truth for, such as its owner's
@@ -76,11 +80,18 @@ make well on its own.
 - Does it constrain a decision the agent could make well on its own? An
   owner's conventions are not such decisions; they stay, at the strength
   the owner gave them.
+- Does the wording fit every context the skill's job covers, or only the
+  one you had in mind while writing? Terms and examples from your own field
+  narrow a skill without saying so.
 - If this fact changed, whose change would it be? It belongs at the
   narrowest scope where it stays true; what varies by project belongs in
   the project, whose own conventions win.
 - Before you finish, reread each list you wrote: if an agent following it
   would check its items and stop, put the principle first.
+- When something new arrives mid-draft, such as a correction, a wider goal
+  or a new case, would you still split, frame and name the skills this way
+  if you started from it? The draft's shape was chosen with less; revise
+  the shape, not only the text, rather than fitting the new idea into it.
 
 ## Learning from use
 
