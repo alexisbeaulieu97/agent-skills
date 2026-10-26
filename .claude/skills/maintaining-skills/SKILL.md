@@ -80,6 +80,9 @@ make well on its own.
 - Does it constrain a decision the agent could make well on its own? An
   owner's conventions are not such decisions; they stay, at the strength
   the owner gave them.
+- Does the wording fit every context the skill's job covers, or only the
+  one you had in mind while writing? Terms and examples from your own field
+  narrow a skill without saying so.
 - If this fact changed, whose change would it be? It belongs at the
   narrowest scope where it stays true; what varies by project belongs in
   the project, whose own conventions win.
