@@ -51,7 +51,11 @@ Start at the strongest layer and go down only when a higher one cannot hold
 the rule, for a reason you can name: it would block legitimate cases, it
 costs more than the mistake does, or the rule needs judgment no check can
 make. A rule often splits: the exact part goes to a check, and only the part
-that needs judgment stays in guidance or review.
+that needs judgment stays in guidance or review. Even a rule that needs
+judgment can have its occurrence checked: whether the step happened goes to
+a check, whether it was done well stays with the reviewer. As illustrations,
+a submission refused while its review section is empty, or an expense claim
+refused without a receipt attached.
 
 When a stronger layer takes over a rule, guidance that only repeats it goes:
 it is noise beside the check, and it dilutes the guidance that still matters.
