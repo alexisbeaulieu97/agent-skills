@@ -21,9 +21,11 @@ follow.
   use, and claims only its own ground; it grows more insistent only after
   the skill was seen not to load.
 - An agent loads a skill for one need, by a description written for it.
-  So each skill does one job: one kind of decision at one kind of moment.
-  An idea that serves a different decision gets its own skill, even when it
-  shares a method with an existing one; a shared method is not a shared job.
+  So each skill does one job, and stops where that job ends. An idea that
+  serves a different job gets its own skill, even when it shares a method
+  with an existing one; a shared method is not a shared job. What is done
+  with the job's result is not the skill's job either; it belongs to the
+  user's policy for working with agents.
 - Anything a skill copies from elsewhere goes stale when the source changes,
   and an agent cannot tell a stale copy from a current one. So a skill
   states only what it is the source of truth for, such as its owner's
@@ -70,15 +72,12 @@ follow.
   as in the commit that made the change, not in the skill.
 - A skill runs in whatever situation the agent is in, from a
   back-and-forth with the user to work on its own while they are away,
-  and only the agent can see which. So a skill states what the situation
-  must yield, such as what the user must see and which decisions are
-  theirs, and leaves how and when to the agent's reading of the current
-  context and to the user's own rules for working with agents.
-- How an agent works with the user, such as when to ask, whether to carry
-  on while a question is open, what needs approval and whether or where to
-  write anything down, is policy, and policy is the user's. A skill neither sets it nor assumes it; where a
-  skill's step could slip past the user's rules, it says the step falls
-  under them.
+  and only the agent can see which. How the agent works with the user in
+  it, such as when to ask, who decides, what needs approval and whether
+  to write anything down, is policy, and policy is the user's. So a skill
+  neither sets nor assumes any of it, and leaves it to the user's rules as
+  the current context shows them; where a skill's step could slip past
+  those rules, it says the step falls under them.
 - An agent treats a choice the skill assigns to the user as a question to
   ask. So a skill names only the decisions the task cannot proceed
   without; what the user might do afterwards, on their own, it leaves
