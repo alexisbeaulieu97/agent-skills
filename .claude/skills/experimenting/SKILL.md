@@ -1,24 +1,24 @@
 ---
 name: experimenting
-description: Ground a decision in what happens in practice instead of what is assumed. Use at a fork between approaches whose outcome can be tried, measured or observed; when a claim that one way works better rests on belief rather than evidence; when people disagree on what will happen; when about to rule an option out as slower, harder or riskier; or before settling a design others will use, by trying it from each party's side. Also for "try both", "which works better here", "test it" or "measure it".
+description: Ground a decision in what happens in practice instead of what is assumed. Use at a fork between approaches whose outcome can be tried, measured or observed; when a claim that one way works better rests on belief rather than evidence; when people disagree on what will happen; or when about to rule an option out as slower, harder or riskier. Also for "try both", "which works better here", "test it" or "measure it".
 ---
 
 # Experimenting
 
 Decide from what happens in practice, not from what theory, habit or
-reputation predicts. A belief that one option works better, or that a design
-will suit the people who use it, feels like knowledge and is often wrong, and
-it stays wrong for as long as nobody tries it. When a claim behind a decision
-can be tried, try it, and let numbers and observations carry the decision
-rather than impressions. The aim is a
-decision grounded in reality, at a cost in proportion to what it decides.
+reputation predicts. A belief that one option works better feels like
+knowledge and is often wrong, and it stays wrong for as long as nobody tries
+the other. When the claim behind a decision can be tried, try it, and let
+numbers and observations carry the decision rather than impressions. The aim
+is a decision grounded in reality, at a cost in proportion to what it
+decides.
 
 ## Spot the claim
 
 A decision worth testing usually rests on a claim about what works better or
 what will happen: that one option is slower, that people will not read
 something that long, that a split will be easier to look after, that a plan
-fits the time, that a design is easy for those who will use it. Treat such a claim as a prediction until something observed
+fits the time. Treat such a claim as a prediction until something observed
 backs it, whoever makes it: you, another agent, a rule of thumb or common
 knowledge. The evidence may already exist, such as a measurement, a record or
 someone's direct experience of this very case, so look before you build one.
@@ -71,25 +71,6 @@ obvious-seeming claims are the ones nobody checks.
   versions of a routine, sending two wordings to a few people each, rehearsing
   an agenda with a clock, cooking a half batch, walking the route at the hour
   it will be used.
-
-## Try a design from each party's side
-
-The claim that a design suits those who will use it is tested by using it.
-A design that others will use, such as an agreement, a process, a form, a
-document or an interface between two parts, shows its friction only in use.
-Try it in proportion to how many will use it and how hard it is to change once
-they do. Name the parties it serves: those who use it, provide it, maintain
-it, or are affected by it. Then actually do a realistic task as each of them:
-follow the document step by step as a newcomer, fill in the form as the person
-who has to, write what a consumer of the interface would write. Imagined use
-glides over the friction that doing the real thing runs into. Note what each
-one must do that serves them nothing, such as steps, repetition, things to
-know in advance or choices with only one sensible answer, and change the
-design while that is still cheap.
-
-This is not a hunt for faults by an opponent but standing where each party
-stands, one at a time. The useful finding is what the work feels like from
-there.
 
 ## Keep it safe and bounded
 
