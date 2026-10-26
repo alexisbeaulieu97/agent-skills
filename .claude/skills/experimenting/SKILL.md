@@ -46,6 +46,10 @@ obvious-seeming claims are the ones nobody checks.
 
 ## Design it to tell the options apart
 
+- **Count the way things are done now among the options**, or doing nothing
+  new. It is the option most often left out, and the bar every other option
+  has to clear to be worth its cost; where it comes close, it also shows why
+  the others win or lose.
 - **State, before trying, which result favours which option**, including what
   holds when no threshold is met: "the second only if it is at least twice as
   fast, otherwise the simpler first". A criterion fixed first cannot drift to
@@ -95,6 +99,23 @@ which is a trade-off rather than a winner; every option fails, which may mean
 the choice is the wrong question; or the comparison cannot be run here, for
 lack of access, people or a setting, in which case what would settle it is the
 finding, and any choice made without it is unverified.
+
+A result that shows why an option wins or loses can point to an option nobody
+tried. It can join the comparison under the same criterion, not one fitted to
+it, counted in the result as having joined after the first results. A
+criterion set relative to the other options, such as "no more than twice the
+smallest", moves when an option joins; where that changes the outcome, it is
+part of the result.
+
+A result can also reveal a criterion nobody set beforehand. Read the result
+both with and without it, and count it in the result as having emerged: if the
+outcome is the same either way, the new criterion supports it; if it flips,
+the result is a trade-off between the criterion set first and the one that
+emerged. The two kinds weigh differently. A criterion revealed by a failure,
+such as an option that goes wrong when two things happen at once, is a
+requirement that went unstated, and it holds even when found late. A new
+preference that happens to favour the option already ahead is the kind most
+likely to be fitting the criterion to the result.
 
 ## When the choice is a matter of taste
 
