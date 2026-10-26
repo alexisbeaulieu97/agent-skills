@@ -9,6 +9,7 @@ My personal agent skills, one folder each under [.claude/skills](.claude/skills)
 | `experimenting` | Decides a fork between approaches by trying it, with evidence instead of guesses |
 | `maintaining-skills` | How to write and revise agent skills so they improve an agent's judgment |
 | `personal-ui-preferences` | My UI and UX defaults, for designing, building or reviewing an interface |
+| `placing-safeguards` | Decides where a rule or safeguard lives so it holds: in the work itself, an automatic check, guidance or review |
 | `shaping` | Shapes a plan: asks what I want, restates it, then shows me a reviewed design to react to |
 | `writing-documentation` | Where each fact lives in a project's documents and how much detail it gets; glossaries as a reference |
 
