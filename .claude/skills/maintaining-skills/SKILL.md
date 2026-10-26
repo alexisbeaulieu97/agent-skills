@@ -75,8 +75,8 @@ follow.
   theirs, and leaves how and when to the agent's reading of the current
   context and to the user's own rules for working with agents.
 - How an agent works with the user, such as when to ask, whether to carry
-  on while a question is open, and what needs approval, is policy, and
-  policy is the user's. A skill neither sets it nor assumes it; where a
+  on while a question is open, what needs approval and whether or where to
+  write anything down, is policy, and policy is the user's. A skill neither sets it nor assumes it; where a
   skill's step could slip past the user's rules, it says the step falls
   under them.
 - An agent treats a choice the skill assigns to the user as a question to
