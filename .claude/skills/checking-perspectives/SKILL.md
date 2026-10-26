@@ -14,11 +14,12 @@ still cheap.
 ## The parties
 
 Name everyone the design serves or affects: those who use it, provide it,
-maintain it, are on the receiving end of it, or come to it later knowing
-nothing. Each may need different things from the same design. As
-illustrations: a sign-up form is met by the person applying, the clerk who
-processes it and the auditor who checks it later; a shared recipe by the
-cook, the shopper and the guest with an allergy.
+maintain it, are on the receiving end of it, hold on to what it produces over
+time, or come to it later knowing nothing. Each may need different things
+from the same design. As illustrations: a sign-up form is met by the person
+applying, the clerk who processes it, the office that files copies of it and
+the auditor who checks it later; a shared recipe by the cook, the shopper and
+the guest with an allergy.
 
 ## Use it as each of them
 
