@@ -21,9 +21,11 @@ follow.
   use, and claims only its own ground; it grows more insistent only after
   the skill was seen not to load.
 - An agent loads a skill for one need, by a description written for it.
-  So each skill does one job: one kind of decision at one kind of moment.
-  An idea that serves a different decision gets its own skill, even when it
-  shares a method with an existing one; a shared method is not a shared job.
+  So each skill does one job, and stops where that job ends. An idea that
+  serves a different job gets its own skill, even when it shares a method
+  with an existing one; a shared method is not a shared job. What is done
+  with the job's result is not the skill's job either; it belongs to the
+  user's policy for working with agents.
 - Anything a skill copies from elsewhere goes stale when the source changes,
   and an agent cannot tell a stale copy from a current one. So a skill
   states only what it is the source of truth for, such as its owner's
@@ -66,12 +68,19 @@ follow.
   count on remembering an earlier run and will see no later one. So a
   skill speaks of now, what to do in this session, checked by what this
   session can see. A signal that shows only across sessions, such as fewer
-  questions over time, is for the skill's owner and stays with them, such
-  as in the commit that made the change, not in the skill.
-- An agent treats a choice the skill assigns to the user as a question to
-  ask. So a skill names only the decisions the task cannot proceed
-  without; what the user might do afterwards, on their own, it leaves
-  unsaid.
+  questions over time, is for the skill's owner, not the skill.
+- A skill runs in whatever situation the agent is in, from a
+  back-and-forth with the user to work on its own while they are away,
+  and only the agent can see which. How the agent works with the user in
+  it, such as when to ask, who decides, what needs approval and whether
+  to write anything down, is policy, and policy is the user's. So a skill
+  neither sets nor assumes any of it, and leaves it to the user's rules as
+  the current context shows them; where a skill's step could slip past
+  those rules, it says the step falls under them.
+- An agent treats a decision a skill names as a question to raise. So a
+  skill assigns no decision to anyone, and names one only where its job
+  cannot proceed without it; what the user might do afterwards, on their
+  own, it leaves unsaid.
 
 ## Questions to ask of a draft
 
@@ -100,8 +109,8 @@ follow.
 
 A skill improves through use: everyday work brings the cases it never
 names. When an agent working with it does something its owner would not,
-find out why before changing anything, change the one idea responsible,
-and let the owner judge by the next uses whether it helped. Because each
+find out why before changing anything, and change the one idea
+responsible, so the next uses can show whether it helped. Because each
 idea is a unit, the effect of a change can be traced to it; a change
 spread across several ideas cannot be. More text fixes only guidance that
 was missing.
