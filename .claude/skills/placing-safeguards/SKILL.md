@@ -1,6 +1,6 @@
 ---
 name: placing-safeguards
-description: Decide where a rule or safeguard should live so it holds without relying on anyone's attention, from built into the work itself, through an automatic check and written guidance, down to a person's review. Use when a mistake recurs or slips through, after a correction, before writing a rule, instruction or checklist item, when adding a review step, or for "how do we stop this happening again" or "make this hard to get wrong".
+description: Decide where a rule or safeguard should live so it holds without relying on anyone's attention, from built into the work itself, through an automatic check and written guidance, down to a reviewer's judgment. Use when a mistake recurs or slips through, after a correction, before writing a rule, instruction or checklist item, when adding a review step, or for "how do we stop this happening again" or "make this hard to get wrong".
 ---
 
 # Placing safeguards
@@ -30,10 +30,13 @@ place, the less it depends on anyone noticing, remembering or agreeing.
   where they are read, understood and applied, and they cost attention every
   time. Keep them for what truly needs judgment, and keep them few: each one
   added dilutes the others.
-- **A person's review.** The only layer that catches what nobody foresaw, and
-  the scarcest: it does not keep up with the volume of work, and attention
-  fades with repetition. Spend it where judgment matters most, rather than
-  on what a stronger layer could catch.
+- **A reviewer's judgment.** Someone who did not do the work reads it against
+  the guidance no check enforces. It is the only layer that catches what
+  nobody foresaw, and less reliable than a check. It takes two forms. A fresh
+  agent is cheap enough to keep up with the volume of work. A person is the
+  scarcest form: attention fades with repetition and does not keep up with
+  volume, so spend it where judgment matters most and on what an agent's
+  review misses, rather than on what a stronger layer could catch.
 
 ## Place each safeguard
 
