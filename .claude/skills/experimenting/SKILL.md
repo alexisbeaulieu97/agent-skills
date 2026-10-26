@@ -46,6 +46,10 @@ obvious-seeming claims are the ones nobody checks.
 
 ## Design it to tell the options apart
 
+- **Count the way things are done now among the options**, or doing nothing
+  new. It is the option most often left out, and the bar every other option
+  has to clear to be worth its cost; where it comes close, it also shows why
+  the others win or lose.
 - **State, before trying, which result favours which option**, including what
   holds when no threshold is met: "the second only if it is at least twice as
   fast, otherwise the simpler first". A criterion fixed first cannot drift to
