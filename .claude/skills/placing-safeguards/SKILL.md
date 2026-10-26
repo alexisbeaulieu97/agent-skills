@@ -41,6 +41,11 @@ place, the less it depends on anyone noticing, remembering or agreeing.
   scarcest form: attention fades with repetition and does not keep up with
   volume, so spend it where judgment matters most and on what an agent's
   review misses, rather than on what a stronger layer could catch.
+  Independence is from the work under review: a reviewer can carry on along
+  the same material, such as from checking a plan's setup to reviewing the
+  proposal to re-checking its own findings after fixes, but one that saw the
+  design behind the work, or wrote the work, is no longer independent of it,
+  and one whose context is mostly unrelated starts better fresh.
 
 ## Place each safeguard
 
