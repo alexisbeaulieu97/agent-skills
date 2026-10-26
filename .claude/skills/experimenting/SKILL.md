@@ -100,6 +100,13 @@ the choice is the wrong question; or the comparison cannot be run here, for
 lack of access, people or a setting, in which case what would settle it is the
 finding, and any choice made without it is unverified.
 
+A result that shows why an option wins or loses can point to an option nobody
+tried. It can join the comparison under the same criterion, not one fitted to
+it, counted in the result as having joined after the first results. A
+criterion set relative to the other options, such as "no more than twice the
+smallest", moves when an option joins; where that changes the outcome, it is
+part of the result.
+
 ## When the choice is a matter of taste
 
 Some choices turn on taste rather than on anything observable, and no
