@@ -56,8 +56,8 @@ they do: a quick pass for something one person uses once, the whole span of
 use for every party for something many will build on. What you make to try
 the design is a throwaway, kept apart from the work.
 
-## Keep the evidence with the design
+## State the evidence with the design
 
-Wherever the design is shown or recorded, say who the parties were, what each
-one did, what they ran into and what changed as a result, so whoever reads it,
-now or later, can see the design was tried and not only reasoned about.
+Whenever you present the design, say who the parties were, what each one did,
+what they ran into and what changed as a result, so it can be seen that the
+design was tried and not only reasoned about.

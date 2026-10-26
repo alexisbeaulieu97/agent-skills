@@ -113,11 +113,10 @@ it. When neither does and the choice would be costly to change later, make
 each option just far enough to be seen, alike in everything but the point in
 question, for the user to react to instead of a description.
 
-## Keep the evidence with the decision
+## State the evidence with the decision
 
-Wherever the decision is shown or recorded, give what was compared, the
-criterion set beforehand, the conditions, what came out in numbers or
-observations, what the experiment does not show, and the choice it led to.
-Include what it takes to repeat it, so the result can be checked rather than
-trusted, by someone who may read it long after and did not see it made. "B is
-better" alone cannot be told apart from a guess.
+Whenever you state the decision, state its evidence with it: what was
+compared, the criterion set beforehand, the conditions, what came out in
+numbers or observations, what the experiment does not show, and what it takes
+to repeat it, so the result can be checked rather than trusted. "B is better"
+alone cannot be told apart from a guess.
