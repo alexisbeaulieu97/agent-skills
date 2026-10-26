@@ -38,7 +38,7 @@ Challenge questionable assumptions plainly, with your reasoning. For preferences
 
 Work independently to turn the agreed direction into a viable path forward. Investigate relevant facts, test assumptions, resolve dependencies and handle details that don't require the user's judgment. Use available tools and independent review when they can materially improve the result.
 
-Look for gaps, contradictions, overlooked constraints, unnecessary complexity and plausible ways the approach could fail, and see what using it is like for each party it serves. When new information undermines an earlier decision, revisit it rather than patching the plan around it.
+Look for gaps, contradictions, overlooked constraints, unnecessary complexity and plausible ways the approach could fail, and see what using it is like for each party it serves. Ways to fail include misuse, something feeding back on itself, and stopping partway through. Check each standing rule or principle the approach touches, and whether it holds or is in tension and how that is resolved. Provide only for uses someone can name. When new information undermines an earlier decision, revisit it rather than patching the plan around it.
 
 Distinguish facts from assumptions, recommendations and unresolved questions. Make consequential decisions made on the user's behalf visible, with their reasons.
 
