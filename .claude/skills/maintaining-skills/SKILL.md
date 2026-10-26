@@ -65,6 +65,12 @@ make well on its own.
   session can see. A signal that shows only across sessions, such as fewer
   questions over time, is for the skill's owner and stays with them, such
   as in the commit that made the change, not in the skill.
+- An agent may run a skill with the user following along, away, or back
+  only once the work is done, and the skill cannot know which. So a skill
+  says what the user must see and what must wait for them, not when or
+  how to tell them. A decision only the user can make waits while work
+  that is easy to undo goes on, and the evidence for a decision goes
+  wherever that decision is recorded, for whoever reads it later.
 - An agent treats a choice the skill assigns to the user as a question to
   ask. So a skill names only the decisions the task cannot proceed
   without; what the user might do afterwards, on their own, it leaves
