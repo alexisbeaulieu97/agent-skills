@@ -1,21 +1,21 @@
 ---
 name: experimenting
-description: Ground a decision in what happens in practice instead of what is assumed. Use at a fork between approaches whose outcome can be tried, measured or observed; when a claim that one way works better rests on belief rather than evidence; when people disagree on what will happen; or when about to rule an option out as slower, harder or riskier. Also for "try both", "which works better here", "test it" or "measure it".
+description: Compare options by trying them in practice instead of predicting how they will do. Use at a fork between approaches whose outcome can be tried, measured or observed; when a claim that one way works better rests on belief rather than evidence; when people disagree on what will happen; or when an option is about to be ruled out as slower, harder or riskier. Also for "try both", "which works better here", "test it" or "measure it".
 ---
 
 # Experimenting
 
-Decide from what happens in practice, not from what theory, habit or
-reputation predicts. A belief that one option works better feels like
-knowledge and is often wrong, and it stays wrong for as long as nobody tries
-the other. When the claim behind a decision can be tried, try it, and let
-numbers and observations carry the decision rather than impressions. The aim
-is a decision grounded in reality, at a cost in proportion to what it
-decides.
+Find out how options compare from what happens in practice, not from what
+theory, habit or reputation predicts. A belief that one option works better
+feels like knowledge and is often wrong, and it stays wrong for as long as
+nobody tries the other. When a claim about how options compare can be tried
+and is worth trying, try it, and let numbers and observations carry the
+result rather than impressions. The aim is a result grounded in reality, at a
+cost in proportion to what rests on it.
 
 ## Spot the claim
 
-A decision worth testing usually rests on a claim about what works better or
+A comparison worth testing usually hides in a claim about what works better or
 what will happen: that one option is slower, that people will not read
 something that long, that a split will be easier to look after, that a plan
 fits the time. Treat such a claim as a prediction until something observed
@@ -27,27 +27,27 @@ option is rarely tried again, so a wrong rejection stays hidden.
 
 ## When an experiment is worth it
 
-Run one to decide when all three hold:
+An experiment is worth running when all three hold:
 
 - **Trying can settle it.** Something you can measure, try or watch gives the
   answer: which version is faster, which wording gets the reply, whether the
-  schedule holds, whether the recipe survives doubling. Do not ask the user
-  what trying can tell you. A question of taste is different; see below.
+  schedule holds, whether the recipe survives doubling. A question of taste is
+  different; see below.
 - **The result could change the choice.** If every outcome, including the one
-  you doubt, would lead to the same option, take it.
+  you doubt, would lead to the same option, an experiment has nothing to tell.
 - **Being wrong costs more than finding out.** Weigh how hard the choice is to
   undo, and how much will be built on it, against the experiment's cost. A
-  choice that is cheap to reverse can be made now and corrected later; one
-  that others will depend on, or that rules options out, earns an experiment
-  even when you are fairly sure.
+  choice that is cheap to reverse can be corrected later; one that others will
+  depend on, or that rules options out, earns an experiment even when the
+  answer seems clear.
 
 When all three hold, feeling sure is not a reason to skip one: the
 obvious-seeming claims are the ones nobody checks.
 
-## Design it to decide
+## Design it to tell the options apart
 
-- **State, before trying, which result picks which option**, including which
-  wins when no threshold is met: "the second only if it is at least twice as
+- **State, before trying, which result favours which option**, including what
+  holds when no threshold is met: "the second only if it is at least twice as
   fast, otherwise the simpler first". A criterion fixed first cannot drift to
   fit the result.
 - **Test where the options differ, and only that.** Build the smallest thing
@@ -55,17 +55,17 @@ obvious-seeming claims are the ones nobody checks.
   in full.
 - **Match the conditions the answer depends on**: realistic size, the real
   people, tools or setting where they could change the outcome. Where the
-  experiment differs from the real conditions, say how, and whether that could
-  flip the result.
+  experiment differs from the real conditions, count that in the result,
+  with whether it could flip it.
 - **Give each option its best fair shot, then freeze it.** Same inputs, same
   conditions, each done the way someone who favoured it would do it, and
   settled before trying. Afterwards, change an option only to fix a mistake,
-  and say so.
+  and count that in the result.
 - **Let numbers speak where there are numbers.** Measure rather than judge by
   feel. Repeat where you can and compare the difference with how much repeated
   tries vary: a difference inside that variation is no difference. Where you
   cannot repeat, treat a small difference as none.
-- **Check the result measured what it claims** before acting on it, most of
+- **Check the result measured what it claims** before trusting it, most of
   all when it surprises or pleases you.
 - **Observe the thing itself.** As illustrations, not a menu: timing both
   versions of a routine, sending two wordings to a few people each, rehearsing
@@ -79,44 +79,34 @@ sandbox, a rehearsal, a small trial. One that would reach people, spend money
 or alter something shared is a real action, under whatever rules govern that
 action, however small the trial.
 
-Keep experiments apart from the work, so nothing half-made goes out by
-accident, and bring over on purpose only what earned its place, such as a
-checklist, a timing or a test worth keeping. When doing an option for real
-is as cheap as trying it, do it where it is easy to back out, and check it
-there.
+Keep experiments apart from the work, so a trial is not mistaken for the
+work.
 
-Fix a budget before starting, in proportion to the choice. When the
-experiment grows towards the cost of the real thing, or the result stays
-unclear, stop: an inconclusive result is a finding. Choose on other grounds,
-such as the option that is simpler or easier to undo, and say that is how you
-chose.
+Fix a budget before starting, in proportion to what rests on the result. When
+the experiment grows towards the cost of the real thing, or the result stays
+unclear, stop: an inconclusive result is a finding, that the options do not
+differ enough on this point to tell apart.
 
-## When the result is awkward
+## Read the result for what it is
 
-When the result does not pick an option the way the criterion planned, say
-so and show what it does show. Some cases:
-
-- **Each option wins on a different point.** Lay out the trade-off; pick by
-  what matters most for this choice, and say that is how you chose.
-- **Every option fails.** Say so rather than taking the least bad one;
-  the choice itself may be the wrong question.
-- **It goes against something the user decided.** Keep their decision, put
-  the result where they will see it, and do not switch on your own.
-- **It cannot be tried here**, for lack of access, people or a setting. Say
-  what would settle it, and that any choice made without it is unverified.
+A result may not favour one option the way the criterion planned. Read it for
+what it does show. As illustrations: each option wins on a different point,
+which is a trade-off rather than a winner; every option fails, which may mean
+the choice is the wrong question; or the comparison cannot be run here, for
+lack of access, people or a setting, in which case what would settle it is the
+finding, and any choice made without it is unverified.
 
 ## When the choice is a matter of taste
 
-Some choices turn on taste rather than on anything observable. Follow the
-user's recorded preferences or the conventions of the work when they settle
-it. When neither does and the choice would be costly to change later, make
-each option just far enough to be seen, alike in everything but the point in
-question, for the user to react to instead of a description.
+Some choices turn on taste rather than on anything observable, and no
+experiment settles them. It can still make the options comparable: make each
+just far enough to be seen, alike in everything but the point in question,
+so they are judged as the real thing rather than from a description.
 
-## State the evidence with the decision
+## What a result is made of
 
-Whenever you state the decision, state its evidence with it: what was
-compared, the criterion set beforehand, the conditions, what came out in
-numbers or observations, what the experiment does not show, and what it takes
-to repeat it, so the result can be checked rather than trusted. "B is better"
-alone cannot be told apart from a guess.
+A result is the evidence, not only its verdict: what was compared, the
+criterion set beforehand, the conditions, what came out in numbers or
+observations, what the experiment does not show, and what it takes to repeat
+it, so it can be checked rather than trusted. "B is better" alone cannot be
+told apart from a guess.

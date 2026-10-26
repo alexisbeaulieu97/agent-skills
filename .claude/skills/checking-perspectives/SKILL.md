@@ -31,20 +31,19 @@ when a task is done more than once.
 
 Use only what that party would have in front of them, not what you know as
 the author. Where you can, hand the task to someone without that knowledge,
-such as a fresh agent given only what the party would get. Where the real
-parties can try it themselves, their use beats any stand-in; asking them
-reaches people, so it falls under whatever rules govern doing that.
+such as a fresh agent given only what the party would get. The real parties'
+own use beats any stand-in. Anything that reaches people, including the real
+parties, falls under whatever rules govern doing that.
 
-Note what each party must do that serves them nothing, such as steps that
+Look for what each party must do that serves them nothing, such as steps that
 always come together, choices with only one sensible answer, things to know
-in advance, repetition or waiting on someone else. Note separately what they
-need and cannot get. Change the design for both, then try the change again
-from the side it was meant to help and from the others, in case it moved the
-friction onto them. Where a change touches something the user decided, keep
-their decision and put what the party ran into where they will see it.
+in advance, repetition or waiting on someone else. Look separately for what
+they need and cannot get. When the design changes, the check applies to the new
+version from every side, since a change that helps one party can move the
+friction onto another.
 
-Friction met while building on a design for real is the same finding: take it
-back to the design rather than working around it.
+Friction met while building on a design for real is the same finding, and it
+is about the design, not only the thing being built.
 
 This is not a hunt for faults by an opponent. The aim is to see what the work
 is like from where each party stands.
@@ -56,8 +55,8 @@ they do: a quick pass for something one person uses once, the whole span of
 use for every party for something many will build on. What you make to try
 the design is a throwaway, kept apart from the work.
 
-## State the evidence with the design
+## What the check is made of
 
-Whenever you present the design, say who the parties were, what each one did,
-what they ran into and what changed as a result, so it can be seen that the
-design was tried and not only reasoned about.
+The finding is the evidence, not only a verdict: who the parties were, what
+each one did and what they ran into, so it can be seen that the design was
+tried and not only reasoned about.
