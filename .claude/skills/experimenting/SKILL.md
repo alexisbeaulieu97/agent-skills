@@ -53,7 +53,9 @@ obvious-seeming claims are the ones nobody checks.
 - **State, before trying, which result favours which option**, including what
   holds when no threshold is met: "the second only if it is at least twice as
   fast, otherwise the simpler first". A criterion fixed first cannot drift to
-  fit the result.
+  fit the result. Anchor a relative threshold to the current way, which stays
+  put, not to the best option, which changes as options join or drop out and
+  can flip the result with it.
 - **Test where the options differ, and only that.** Build the smallest thing
   that exercises the point of difference, rather than carrying out each option
   in full.
@@ -61,10 +63,18 @@ obvious-seeming claims are the ones nobody checks.
   people, tools or setting where they could change the outcome. Where the
   experiment differs from the real conditions, count that in the result,
   with whether it could flip it.
+- **Include the edges when others will build on the choice**: limits, things
+  that run out, the worst pattern of use and what long use does. Ordinary use
+  rarely tells such options apart; the facts that decide often sit at the
+  edges.
 - **Give each option its best fair shot, then freeze it.** Same inputs, same
   conditions, each done the way someone who favoured it would do it, and
   settled before trying. Afterwards, change an option only to fix a mistake,
   and count that in the result.
+- **Have the criterion and the setup checked before running**, by someone
+  who did not design them, such as a fresh agent. A bias in the setup, such
+  as inputs arranged one way for one option and another way for the rest,
+  flatters an option, and checking only the result will not show it.
 - **Let numbers speak where there are numbers.** Measure rather than judge by
   feel. Repeat where you can and compare the difference with how much repeated
   tries vary: a difference inside that variation is no difference. Where you
@@ -102,10 +112,7 @@ finding, and any choice made without it is unverified.
 
 A result that shows why an option wins or loses can point to an option nobody
 tried. It can join the comparison under the same criterion, not one fitted to
-it, counted in the result as having joined after the first results. A
-criterion set relative to the other options, such as "no more than twice the
-smallest", moves when an option joins; where that changes the outcome, it is
-part of the result.
+it, counted in the result as having joined after the first results.
 
 A result can also reveal a criterion nobody set beforehand. Read the result
 both with and without it, and count it in the result as having emerged: if the
