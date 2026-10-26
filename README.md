@@ -5,7 +5,7 @@ My personal agent skills, one folder each under [.claude/skills](.claude/skills)
 | Skill | Use |
 | --- | --- |
 | `apprentice` | A teaching session: I show how I do something, the agent records it in the skills |
-| `experimenting` | When torn between approaches, try them (spike, test, benchmark, samples) instead of guessing |
+| `experimenting` | Decides forks between approaches by trying them, and tries a design from each party's side, instead of guessing |
 | `maintaining-skills` | How to write and revise agent skills so they improve an agent's judgment |
 | `personal-ui-preferences` | My UI and UX defaults, for designing, building or reviewing an interface |
 | `shaping` | Shapes a plan: asks what I want, restates it, then shows me a reviewed design to react to |
