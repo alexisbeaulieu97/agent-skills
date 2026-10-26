@@ -6,18 +6,19 @@ description: Ground a decision in what happens in practice instead of what is as
 # Experimenting
 
 Decide from what happens in practice, not from what theory, habit or
-reputation predicts. A belief that one option works better feels like
-knowledge and is often wrong, and it stays wrong for as long as nobody tries
-the other. When a fork in the road can be tried, try it, and let numbers and
-observations carry the decision rather than impressions. The aim is a
+reputation predicts. A belief that one option works better, or that a design
+will suit the people who use it, feels like knowledge and is often wrong, and
+it stays wrong for as long as nobody tries it. When a claim behind a decision
+can be tried, try it, and let numbers and observations carry the decision
+rather than impressions. The aim is a
 decision grounded in reality, at a cost in proportion to what it decides.
 
-## Spot the fork
+## Spot the claim
 
-A fork worth testing usually shows up as a claim about what works better or
+A decision worth testing usually rests on a claim about what works better or
 what will happen: that one option is slower, that people will not read
 something that long, that a split will be easier to look after, that a plan
-fits the time. Treat such a claim as a prediction until something observed
+fits the time, that a design is easy for those who will use it. Treat such a claim as a prediction until something observed
 backs it, whoever makes it: you, another agent, a rule of thumb or common
 knowledge. The evidence may already exist, such as a measurement, a record or
 someone's direct experience of this very case, so look before you build one.
@@ -73,6 +74,7 @@ obvious-seeming claims are the ones nobody checks.
 
 ## Try a design from each party's side
 
+The claim that a design suits those who will use it is tested by using it.
 A design that others will use, such as an agreement, a process, a form, a
 document or an interface between two parts, shows its friction only in use.
 Try it in proportion to how many will use it and how hard it is to change once
