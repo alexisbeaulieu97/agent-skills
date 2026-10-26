@@ -68,8 +68,7 @@ follow.
   count on remembering an earlier run and will see no later one. So a
   skill speaks of now, what to do in this session, checked by what this
   session can see. A signal that shows only across sessions, such as fewer
-  questions over time, is for the skill's owner and stays with them, such
-  as in the commit that made the change, not in the skill.
+  questions over time, is for the skill's owner, not the skill.
 - A skill runs in whatever situation the agent is in, from a
   back-and-forth with the user to work on its own while they are away,
   and only the agent can see which. How the agent works with the user in
@@ -78,10 +77,10 @@ follow.
   neither sets nor assumes any of it, and leaves it to the user's rules as
   the current context shows them; where a skill's step could slip past
   those rules, it says the step falls under them.
-- An agent treats a choice the skill assigns to the user as a question to
-  ask. So a skill names only the decisions the task cannot proceed
-  without; what the user might do afterwards, on their own, it leaves
-  unsaid.
+- An agent treats a decision a skill names as a question to raise. So a
+  skill assigns no decision to anyone, and names one only where its job
+  cannot proceed without it; what the user might do afterwards, on their
+  own, it leaves unsaid.
 
 ## Questions to ask of a draft
 
@@ -110,8 +109,8 @@ follow.
 
 A skill improves through use: everyday work brings the cases it never
 names. When an agent working with it does something its owner would not,
-find out why before changing anything, change the one idea responsible,
-and let the owner judge by the next uses whether it helped. Because each
+find out why before changing anything, and change the one idea
+responsible, so the next uses can show whether it helped. Because each
 idea is a unit, the effect of a change can be traced to it; a change
 spread across several ideas cannot be. More text fixes only guidance that
 was missing.
