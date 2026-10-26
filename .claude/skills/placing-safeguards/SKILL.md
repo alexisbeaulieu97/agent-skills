@@ -29,7 +29,11 @@ place, the less it depends on anyone noticing, remembering or agreeing.
 - **Written guidance.** Instructions, notes, rules and checklists hold only
   where they are read, understood and applied, and they cost attention every
   time. Keep them for what truly needs judgment, and keep them few: each one
-  added dilutes the others.
+  added dilutes the others. Guidance is read where the reader meets the
+  decision, so put it there: in a check's message that names the rule and its
+  fix, in a field of the form or template being filled in, in a note linked
+  from where the work happens. A separate document nobody opens at that
+  moment goes unread and drifts out of date.
 - **A reviewer's judgment.** Someone who did not do the work reads it against
   the guidance no check enforces. It is the only layer that catches what
   nobody foresaw, and less reliable than a check. It takes two forms. A fresh
