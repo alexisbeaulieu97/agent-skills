@@ -81,6 +81,10 @@ make well on its own.
   the project, whose own conventions win.
 - Before you finish, reread each list you wrote: if an agent following it
   would check its items and stop, put the principle first.
+- When something new arrives mid-draft, such as a correction, a wider goal
+  or a new case, would you still split, frame and name the skills this way
+  if you started from it? The draft's shape was chosen with less; revise
+  the shape, not only the text, rather than fitting the new idea into it.
 
 ## Learning from use
 
