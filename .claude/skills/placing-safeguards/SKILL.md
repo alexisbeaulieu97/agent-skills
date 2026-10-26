@@ -50,7 +50,9 @@ twice, or the same correction given twice, marks a kind that will recur.
 Start at the strongest layer and go down only when a higher one cannot hold
 the rule, for a reason you can name: it would block legitimate cases, it
 costs more than the mistake does, or the rule needs judgment no check can
-make. A rule often splits: the exact part goes to a check, and only the part
+make. A cost reason names both costs: the effort of a bigger change is paid
+once, and the mistake it removes is paid every time it recurs, so "it is a
+bigger change" alone does not rule a stronger layer out. A rule often splits: the exact part goes to a check, and only the part
 that needs judgment stays in guidance or review. Even a rule that needs
 judgment can have its occurrence checked: whether the step happened goes to
 a check, whether it was done well stays with the reviewer. As illustrations,
