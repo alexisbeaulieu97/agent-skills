@@ -107,6 +107,16 @@ criterion set relative to the other options, such as "no more than twice the
 smallest", moves when an option joins; where that changes the outcome, it is
 part of the result.
 
+A result can also reveal a criterion nobody set beforehand. Read the result
+both with and without it, and count it in the result as having emerged: if the
+outcome is the same either way, the new criterion supports it; if it flips,
+the result is a trade-off between the criterion set first and the one that
+emerged. The two kinds weigh differently. A criterion revealed by a failure,
+such as an option that goes wrong when two things happen at once, is a
+requirement that went unstated, and it holds even when found late. A new
+preference that happens to favour the option already ahead is the kind most
+likely to be fitting the criterion to the result.
+
 ## When the choice is a matter of taste
 
 Some choices turn on taste rather than on anything observable, and no
