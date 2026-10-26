@@ -63,6 +63,10 @@ obvious-seeming claims are the ones nobody checks.
   people, tools or setting where they could change the outcome. Where the
   experiment differs from the real conditions, count that in the result,
   with whether it could flip it.
+- **Include the edges when others will build on the choice**: limits, things
+  that run out, the worst pattern of use and what long use does. Ordinary use
+  rarely tells such options apart; the facts that decide often sit at the
+  edges.
 - **Give each option its best fair shot, then freeze it.** Same inputs, same
   conditions, each done the way someone who favoured it would do it, and
   settled before trying. Afterwards, change an option only to fix a mistake,
