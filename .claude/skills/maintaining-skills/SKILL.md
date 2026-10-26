@@ -17,6 +17,10 @@ make well on its own.
   covers and the requests it serves, in the language users are likely to
   use, and claims only its own ground; it grows more insistent only after
   the skill was seen not to load.
+- An agent loads a skill for one need, by a description written for it.
+  So each skill does one job: one kind of decision at one kind of moment.
+  An idea that serves a different decision gets its own skill, even when it
+  shares a method with an existing one; a shared method is not a shared job.
 - Anything a skill copies from elsewhere goes stale when the source changes,
   and an agent cannot tell a stale copy from a current one. So a skill
   states only what it is the source of truth for, such as its owner's
