@@ -118,6 +118,12 @@ A result that shows why an option wins or loses can point to an option nobody
 tried. It can join the comparison under the same criterion, not one fitted to
 it, counted in the result as having joined after the first results.
 
+A change made to the winner after the comparison is such an option too, when
+it could bear on the criterion: a refinement the result suggested, a limit
+added for safety, a detail settled afterwards. The result does not cover it
+until it has been tried under the same criterion; until then it is untried,
+and the result says so.
+
 A result can also reveal a criterion nobody set beforehand. Read the result
 both with and without it, and count it in the result as having emerged: if the
 outcome is the same either way, the new criterion supports it; if it flips,
