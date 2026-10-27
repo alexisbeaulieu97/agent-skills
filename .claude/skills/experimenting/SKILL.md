@@ -31,8 +31,8 @@ An experiment is worth running when all three hold:
 
 - **Trying can settle it.** Something you can measure, try or watch gives the
   answer: which version is faster, which wording gets the reply, whether the
-  schedule holds, whether the recipe survives doubling. A question of taste is
-  different; see below.
+  schedule holds, whether the recipe survives doubling. A choice that turns on
+  judgement is tried differently; see below.
 - **The result could change the choice.** If every outcome, including the one
   you doubt, would lead to the same option, an experiment has nothing to tell.
 - **Being wrong costs more than finding out.** Weigh how hard the choice is to
@@ -128,12 +128,16 @@ requirement that went unstated, and it holds even when found late. A new
 preference that happens to favour the option already ahead is the kind most
 likely to be fitting the criterion to the result.
 
-## When the choice is a matter of taste
+## When the choice turns on judgement
 
-Some choices turn on taste rather than on anything observable, and no
-experiment settles them. It can still make the options comparable: make each
-just far enough to be seen, alike in everything but the point in question,
-so they are judged as the real thing rather than from a description.
+Some choices turn on judgement rather than on anything measured. Make each
+option just far enough to be seen, alike in everything but the point in
+question, so it is judged as the real thing rather than from a description.
+Then fix the procedure before trying, rather than a definition of better: who
+judges, what they see, that each judges independently without knowing whose
+option is whose, the one open question they answer, and how clear a
+preference must be to change what exists. Their reasons show what better
+meant in this case, including what nobody thought to list.
 
 ## What a result is made of
 
