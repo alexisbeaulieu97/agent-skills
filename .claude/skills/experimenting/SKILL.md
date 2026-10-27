@@ -79,6 +79,10 @@ obvious-seeming claims are the ones nobody checks.
   feel. Repeat where you can and compare the difference with how much repeated
   tries vary: a difference inside that variation is no difference. Where you
   cannot repeat, treat a small difference as none.
+- **Don't let a proxy decide what it stands for.** A count, a timing or a
+  score often stands in for something broader, such as how easy the result is
+  to work with, and optimising the stand-in can pick the worse option. Use it
+  as evidence about the broader thing, not as the verdict.
 - **Check the result measured what it claims** before trusting it, most of
   all when it surprises or pleases you.
 - **Observe the thing itself.** As illustrations, not a menu: timing both
