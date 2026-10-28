@@ -71,7 +71,7 @@ obvious-seeming claims are the ones nobody checks.
   edges.
 - **Give each option its best fair shot, then freeze it.** Same inputs, same
   conditions, each done the way someone who favoured it would do it, and
-  settled before trying. Where an option has to be used to show what it is
+  settled before comparing. Where an option has to be used to show what it is
   like, its best shot includes one round of that use: each option gets one
   revision for what the use ran into, the same for every option and counted
   in the result, and only then freezes. Afterwards, change an option only to
@@ -152,9 +152,9 @@ meant in this case, including what nobody thought to list.
 
 Ask separately, after the verdict, what change to each option would most
 change their preference, so that suggesting does not colour judging. A
-refinement tried from that joins late, under the same procedure, and is
-judged by people who did not suggest it, since suggesting a change gives a
-stake in it.
+refinement tried from that joins late, under the same procedure, and, where
+the judges stand in for others, is judged by people who did not suggest it,
+since suggesting a change gives a stake in it.
 
 ## What a result is made of
 
