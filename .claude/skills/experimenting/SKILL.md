@@ -58,7 +58,9 @@ obvious-seeming claims are the ones nobody checks.
   can flip the result with it.
 - **Test where the options differ, and only that.** Build the smallest thing
   that exercises the point of difference, rather than carrying out each option
-  in full.
+  in full. Include where each option should come out ahead, not only where it
+  should cost most: a comparison that tries an option only at its weak points
+  has decided before it starts.
 - **Match the conditions the answer depends on**: realistic size, the real
   people, tools or setting where they could change the outcome. Where the
   experiment differs from the real conditions, count that in the result,
@@ -69,8 +71,11 @@ obvious-seeming claims are the ones nobody checks.
   edges.
 - **Give each option its best fair shot, then freeze it.** Same inputs, same
   conditions, each done the way someone who favoured it would do it, and
-  settled before trying. Afterwards, change an option only to fix a mistake,
-  and count that in the result.
+  settled before trying. Where an option has to be used to show what it is
+  like, its best shot includes one round of that use: each option gets one
+  revision for what the use ran into, the same for every option and counted
+  in the result, and only then freezes. Afterwards, change an option only to
+  fix a mistake, and count that in the result.
 - **Have the criterion and the setup checked before running**, by someone
   who did not design them, such as a fresh agent. A bias in the setup, such
   as inputs arranged one way for one option and another way for the rest,
@@ -144,6 +149,12 @@ judges, what they see, that each judges independently without knowing whose
 option is whose, the one open question they answer, and how clear a
 preference must be to change what exists. Their reasons show what better
 meant in this case, including what nobody thought to list.
+
+Ask separately, after the verdict, what change to each option would most
+change their preference, so that suggesting does not colour judging. A
+refinement tried from that joins late, under the same procedure, and is
+judged by people who did not suggest it, since suggesting a change gives a
+stake in it.
 
 ## What a result is made of
 
