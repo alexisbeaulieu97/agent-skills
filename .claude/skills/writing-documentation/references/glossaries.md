@@ -7,6 +7,8 @@ terms without learning its specification. Every judgment below serves that reade
   means what the field already means, or that the reader never meets, costs a lookup and
   returns nothing: in an online shop's docs, for illustration, "order" and "login" need no
   entry unless the project narrows them.
+- **Write it as a table of term and short description,** one line each, so a lookup is a
+  scan.
 - **Define the concept's identity and the role that distinguishes it.** What a thing does
   belongs in its definition when that is what sets it apart; how it does it, when, and under
   which conditions, and how it looks or where it is shown, is specification, and lives in the

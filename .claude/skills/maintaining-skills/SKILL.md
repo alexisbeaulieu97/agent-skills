@@ -82,7 +82,10 @@ follow.
   cannot proceed without it; what the user might do afterwards, on their
   own, it leaves unsaid.
 
-## Questions to ask of a draft
+## Checking a draft
+
+Reading this skill does not check a draft; answering its questions does. An edit is done
+when every idea you added or changed passes each question below.
 
 - What decision does each idea improve, why does that matter where it is
   not obvious, and how would you know it worked? When you cannot tell, the
@@ -95,6 +98,8 @@ follow.
 - Does the wording fit every context the skill's job covers, or only the
   one you had in mind while writing? Terms and examples from your own field
   narrow a skill without saying so.
+- Does another part of the skill already say it? Two statements of one idea
+  drift apart like any copy; keep one.
 - If this fact changed, whose change would it be? It belongs at the
   narrowest scope where it stays true; what varies by project belongs in
   the project, whose own conventions win.
@@ -104,6 +109,11 @@ follow.
   or a new case, would you still split, frame and name the skills this way
   if you started from it? The draft's shape was chosen with less; revise
   the shape, not only the text, rather than fitting the new idea into it.
+
+Then try the edited skill on one real case, by an agent that has the skill and the case but
+none of your context, since you read your own intent into the text. Where its result is not
+what the skill's owner would want, the cause is one idea; treat it as "Learning from use"
+describes.
 
 ## Learning from use
 
