@@ -46,6 +46,8 @@ Look for gaps, contradictions, overlooked constraints, unnecessary complexity an
 
 Patching shows in the work before anyone names it: each new concept, exception or special case added to keep an approach working is evidence that something it rests on is false. When they start to accumulate, trace them to the earliest decision that made them necessary and test that decision before adding the next.
 
+Weigh deferring something by what adding it later would cost, not by whether it is needed yet. Where others will build on the result, later can cost far more than now, and marking something provisional can cap the cost of building it early.
+
 Distinguish facts from assumptions, recommendations and unresolved questions. Make consequential decisions made on the user's behalf visible, with their reasons.
 
 Develop the approach incrementally. Don't elaborate dependent parts before their foundations are established and the user has had a chance to react.
