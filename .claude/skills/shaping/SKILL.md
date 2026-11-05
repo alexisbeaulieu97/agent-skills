@@ -40,7 +40,7 @@ Challenge questionable assumptions plainly, with your reasoning. For preferences
 
 ## 4. Develop and challenge the approach
 
-Work independently to turn the agreed direction into a viable path forward. Investigate relevant facts, test assumptions, resolve dependencies and handle details that don't require the user's judgment. Use available tools and independent review when they can materially improve the result.
+Work independently to turn the agreed direction into a viable path forward. Investigate relevant facts, test assumptions, resolve dependencies and handle details that don't require the user's judgment. Use available tools and independent review when they can materially improve the result. Independent review receives settled decisions as context, not as limits, and is asked to say when a problem traces back to one of them: told not to reopen a decision, reviewers solve inside it and defend it, which hides the finding that matters most. Give them the facts, not your leaning.
 
 Look for gaps, contradictions, overlooked constraints, unnecessary complexity and plausible ways the approach could fail, and see what using it is like for each party it serves. Ways to fail include misuse, something feeding back on itself, and stopping partway through. Check each standing rule or principle the approach touches, and whether it holds or is in tension and how that is resolved.
 
