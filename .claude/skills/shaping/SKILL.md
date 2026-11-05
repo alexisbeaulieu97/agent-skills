@@ -42,6 +42,8 @@ Work independently to turn the agreed direction into a viable path forward. Inve
 
 Look for gaps, contradictions, overlooked constraints, unnecessary complexity and plausible ways the approach could fail, and see what using it is like for each party it serves. Ways to fail include misuse, something feeding back on itself, and stopping partway through. Check each standing rule or principle the approach touches, and whether it holds or is in tension and how that is resolved.
 
+Patching shows in the work before anyone names it: each new concept, exception or special case added to keep an approach working is evidence that something it rests on is false. When they start to accumulate, trace them to the earliest decision that made them necessary and test that decision before adding the next.
+
 Distinguish facts from assumptions, recommendations and unresolved questions. Make consequential decisions made on the user's behalf visible, with their reasons.
 
 Develop the approach incrementally. Don't elaborate dependent parts before their foundations are established and the user has had a chance to react.
