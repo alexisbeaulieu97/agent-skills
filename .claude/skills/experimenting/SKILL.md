@@ -102,6 +102,10 @@ sandbox, a rehearsal, a small trial. One that would reach people, spend money
 or alter something shared is a real action, under whatever rules govern that
 action, however small the trial.
 
+An experiment that pushes something to its limit, such as load, volume or growth
+without end, can exhaust what it runs on and take everything else there down
+with it. Run it where it can fail alone.
+
 Keep experiments apart from the work, so a trial is not mistaken for the
 work.
 
