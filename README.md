@@ -16,11 +16,12 @@ My personal agent skills, one folder each under [.claude/skills](.claude/skills)
 ## Where they load
 
 - **On a machine**: `untaped dotfiles` links every skill into `~/.claude/skills` (Claude
-  Code) and `~/.agents/skills` (Codex and other harnesses), from [dotfiles.yml](dotfiles.yml):
+  Code) and `~/.agents/skills` (Codex and other harnesses), from the `skills` package in
+  [.untaped/dotfiles](.untaped/dotfiles/skills.yml):
 
   ```sh
   untaped dotfiles subscribe git@github.com:alexisbeaulieu97/agent-skills.git
-  untaped dotfiles enable skills
+  untaped dotfiles add skills
   untaped dotfiles apply
   ```
 
@@ -30,4 +31,4 @@ My personal agent skills, one folder each under [.claude/skills](.claude/skills)
 ## Add a skill
 
 Create `.claude/skills/<name>/SKILL.md`, add it to the table above, commit. Machines get it
-on their next `untaped dotfiles sync`; projects on their next thread.
+on their next `untaped dotfiles apply`; projects on their next thread.
